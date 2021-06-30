@@ -1,0 +1,96 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "nsw-card",
+      "path": "./nsw-card.js",
+      "description": "`nsw-card`\n`Cards group related content or tasks to make it easier for users to scan, read, and find information.`",
+      "attributes": [
+        {
+          "name": "title",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "link",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "copy",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "icon",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "tag",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "image",
+          "type": "string",
+          "default": "\"\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "title",
+          "attribute": "title",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "link",
+          "attribute": "link",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "copy",
+          "attribute": "copy",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "icon",
+          "attribute": "icon",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "tag",
+          "attribute": "tag",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "date",
+          "attribute": "date",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "image",
+          "attribute": "image",
+          "type": "string",
+          "default": "\"\""
+        }
+      ]
+    },
+    {
+      "name": "nsw-card",
+      "path": "./src/nsw-card.js",
+      "description": "`nsw-card`\n`Cards group related content or tasks to make it easier for users to scan, read, and find information.`"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "nsw-button",
+      "path": "./nsw-button.js",
+      "description": "`nsw-button`\n`Buttons provide users with the ability to submit an action or follow a link to another location. `",
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string",
+          "default": "\"primary\""
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "default": "\"Button\""
+        },
+        {
+          "name": "link",
+          "type": "string",
+          "default": "\"\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "type",
+          "attribute": "type",
+          "type": "string",
+          "default": "\"primary\""
+        },
+        {
+          "name": "label",
+          "attribute": "label",
+          "type": "string",
+          "default": "\"Button\""
+        },
+        {
+          "name": "link",
+          "attribute": "link",
+          "type": "string",
+          "default": "\"\""
+        }
+      ]
+    },
+    {
+      "name": "nsw-button",
+      "path": "./src/nsw-button.js",
+      "description": "`nsw-button`\n`Buttons provide users with the ability to submit an action or follow a link to another location. `"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "nsw-blockquote",
+      "path": "./nsw-blockquote.js",
+      "description": "`nsw-blockquote`\n`Blockquotes give prominence to a section of text quoted from another source.    `",
+      "attributes": [
+        {
+          "name": "text",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "cite",
+          "type": "string",
+          "default": "\"\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "text",
+          "attribute": "text",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "cite",
+          "attribute": "cite",
+          "type": "string",
+          "default": "\"\""
+        }
+      ]
+    },
+    {
+      "name": "nsw-blockquote",
+      "path": "./src/nsw-blockquote.js",
+      "description": "`nsw-blockquote`\n`Blockquotes give prominence to a section of text quoted from another source.    `"
+    }
+  ]
+}

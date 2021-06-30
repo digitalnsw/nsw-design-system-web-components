@@ -1,0 +1,16 @@
+{
+  "title": {
+    "name": "title",
+    "type": Array,
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_titleChanged"
+  },
+  "content": {
+    "name": "content",
+    "type": Object,
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_contentChanged"
+  }
+}

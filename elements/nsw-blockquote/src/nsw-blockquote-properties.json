@@ -1,0 +1,16 @@
+{
+  "text": {
+    "name": "text",
+    "type": String,
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_textChanged"
+  },
+  "cite": {
+    "name": "cite",
+    "type": "String",
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_citeChanged"
+  }
+}

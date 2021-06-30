@@ -1,0 +1,30 @@
+{
+  "title": {
+    "name": "title",
+    "type": String,
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_titleChanged"
+  },
+  "content": {
+    "name": "content",
+    "type": "String",
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_contentChanged"
+  },
+  "link": {
+    "name": "link",
+    "type": "String",
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_linkChanged"
+  },
+  "text": {
+    "name": "text",
+    "type": "String",
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_textChanged"
+  }
+}

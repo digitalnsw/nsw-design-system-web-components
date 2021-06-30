@@ -1,0 +1,23 @@
+{
+  "type": {
+    "name": "type",
+    "type": String,
+    "value": "primary",
+    "reflectToAttribute": true,
+    "observer": "_typeChanged"
+  },
+  "label": {
+    "name": "label",
+    "type": "String",
+    "value": "Button",
+    "reflectToAttribute": true,
+    "observer": "_labelChanged"
+  },
+  "link": {
+    "name": "link",
+    "type": "String",
+    "value": "",
+    "reflectToAttribute": false,
+    "observer": "_linkChanged"
+  }
+}

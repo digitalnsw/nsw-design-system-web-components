@@ -1,0 +1,51 @@
+{
+  "title": {
+    "name": "title",
+    "type": String,
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_titleChanged"
+  },
+  "link": {
+    "name": "link",
+    "type": "String",
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_linkChanged"
+  },
+  "copy": {
+    "name": "copy",
+    "type": "String",
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_copyChanged"
+  },
+  "icon": {
+    "name": "icon",
+    "type": "String",
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_iconChanged"
+  },
+  "tag": {
+    "name": "tag",
+    "type": "String",
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_tagChanged"
+  },
+  "date": {
+    "name": "date",
+    "type": "String",
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_dateChanged"
+  },
+  "image": {
+    "name": "image",
+    "type": "String",
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_imageChanged"
+  }
+}

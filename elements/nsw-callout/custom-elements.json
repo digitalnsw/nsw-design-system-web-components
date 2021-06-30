@@ -1,0 +1,63 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "nsw-callout",
+      "path": "./nsw-callout.js",
+      "description": "`nsw-callout`\n`Callouts are a snippet of information that draws attention to important content. `",
+      "attributes": [
+        {
+          "name": "title",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "content",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "link",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "default": "\"\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "title",
+          "attribute": "title",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "content",
+          "attribute": "content",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "link",
+          "attribute": "link",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "text",
+          "attribute": "text",
+          "type": "string",
+          "default": "\"\""
+        }
+      ]
+    },
+    {
+      "name": "nsw-callout",
+      "path": "./src/nsw-callout.js",
+      "description": "`nsw-callout`\n`Callouts are a snippet of information that draws attention to important content. `"
+    }
+  ]
+}
