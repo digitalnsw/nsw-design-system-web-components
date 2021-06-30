@@ -1,0 +1,41 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "nsw-accordion",
+      "path": "./nsw-accordion.js",
+      "description": "`nsw-accordion`\n`An accordion is a series of expandable vertical panels, designed to save space on a page by hiding content and revealing it as required.`",
+      "attributes": [
+        {
+          "name": "title",
+          "type": "array",
+          "default": "\"\""
+        },
+        {
+          "name": "content",
+          "type": "object",
+          "default": "\"\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "title",
+          "attribute": "title",
+          "type": "array",
+          "default": "\"\""
+        },
+        {
+          "name": "content",
+          "attribute": "content",
+          "type": "object",
+          "default": "\"\""
+        }
+      ]
+    },
+    {
+      "name": "nsw-accordion",
+      "path": "./src/nsw-accordion.js",
+      "description": "`nsw-accordion`\n`An accordion is a series of expandable vertical panels, designed to save space on a page by hiding content and revealing it as required.`"
+    }
+  ]
+}
