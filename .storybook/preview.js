@@ -46,8 +46,9 @@ addParameters({
       inputTextColor: "rgb(51, 51, 51)",
       inputBorderRadius: 4,
 
-      brandTitle: "ELMS:LN lrnwebcompomnents",
-      brandUrl: "https://github.com/elmsln/lrnwebcomponents",
+      brandTitle: "NSW Design System Web Components",
+      brandUrl:
+        "https://github.com/digitalnsw/nsw-design-system-web-components",
     },
   },
   a11y: {
