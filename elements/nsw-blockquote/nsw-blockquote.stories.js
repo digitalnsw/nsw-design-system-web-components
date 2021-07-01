@@ -5,7 +5,7 @@ import {
   text,
   boolean,
 } from "@open-wc/demoing-storybook";
-import { StorybookUtilities } from "@lrnwebcomponents/storybook-utilities/storybook-utilities.js";
+import { StorybookUtilities } from "@digitalnsw/storybook-utilities/storybook-utilities.js";
 import { NswBlockquote } from "./nsw-blockquote.js";
 // need to account for polymer goofiness when webpack rolls this up
 
