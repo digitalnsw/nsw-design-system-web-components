@@ -1,6 +1,6 @@
 {
   "name": "@digitalnsw/deduping-fix",
-  "version": "3.0.0",
+  "version": "0.0.10",
   "description": "A very simple fix for Failed to execute 'define' on 'CustomElementRegistry'",
   "repository": {
     "type": "git",
