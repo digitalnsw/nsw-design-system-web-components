@@ -1,0 +1,322 @@
+
+// TODO: Reconcile with _maps.scss so there's only one file and no middleman.
+
+// ========================================================================
+// COLORS for RHElements
+//
+// Context-based colors to be used in styling RHElements along with _maps.scss
+// @requires _crayola.scss
+//
+// ========================================================================
+
+
+// ========================================================================
+// Base Text Colors
+// ========================================================================
+
+$dds-color--text:                               $ddselements--gray-dark !default;
+$dds-color--text--on-dark:                      $dds-color--white !default;
+$dds-color--text--on-saturated:                 $dds-color--white !default;
+
+
+// ========================================================================
+// Base UI Link Colors to be used below
+// ========================================================================
+
+$dds-color--ui-link:                            #06c !default;
+$dds-color--ui-link--visited:                   $ddselements--purple !default;             // Was #7551a6
+$dds-color--ui-link--hover:                     darken($dds-color--ui-link, 20%) !default; // Was #004080
+$dds-color--ui-link--focus:                     darken($dds-color--ui-link, 20%) !default; // Was #004080
+
+$dds-color--ui-link--on-dark:                   lighten($dds-color--ui-link, 40%) !default;          // Was #97daff
+$dds-color--ui-link--on-dark--visited:          lighten($dds-color--ui-link--visited, 30%) !default; // Was #d8c0ff
+$dds-color--ui-link--on-dark--hover:            lighten($dds-color--ui-link--on-dark, 10%) !default; // Was #c0ecff
+$dds-color--ui-link--on-dark--focus:            lighten($dds-color--ui-link--on-dark, 10%) !default; // Was #c0ecff
+
+$dds-color--ui-link--on-saturated:              lighten($dds-color--ui-link, 40%) !default;               // Was #97daff
+$dds-color--ui-link--on-saturated--visited:     lighten($dds-color--ui-link--visited, 30%) !default;      // Was #d8c0ff
+$dds-color--ui-link--on-saturated--hover:       lighten($dds-color--ui-link--on-saturated, 10%) !default; // Was #c0ecff
+$dds-color--ui-link--on-saturated--focus:       lighten($dds-color--ui-link--on-saturated, 10%) !default; // Was #c0ecff
+
+
+// ========================================================================
+// Base UI Colors for Buttons, CTAs, and actionable UI elements
+// ========================================================================
+
+$dds-color--ui-base:                            $ddselements--blue !default;
+$dds-color--ui-base--hover:                     darken($ddselements--blue, 20%) !default;
+$dds-color--ui-base--text:                      $dds-color--text--on-dark !default;
+$dds-color--ui-base--text--hover:               $dds-color--text--on-dark !default;
+
+$dds-color--ui-complement:                      $dds-color--gray-800 !default;
+$dds-color--ui-complement--hover:               $dds-color--gray-1000 !default;
+$dds-color--ui-complement--text:                $dds-color--text--on-dark !default;
+$dds-color--ui-complement--text--hover:         $dds-color--text--on-dark !default;
+
+$dds-color--ui-accent:                          $ddselements--orange !default;
+$dds-color--ui-accent--hover:                   darken($ddselements--orange, 20%) !default;
+$dds-color--ui-accent--text:                    $dds-color--text--on-dark !default;
+$dds-color--ui-accent--text--hover:             $dds-color--text--on-dark !default;
+
+$dds-color--ui-disabled:                        $ddselements--gray-light !default;
+$dds-color--ui-disabled--hover:                 $ddselements--gray-light !default;
+$dds-color--ui-disabled--text:                  $ddselements--gray !default;
+$dds-color--ui-disabled--text--hover:           $ddselements--gray !default;
+
+
+// ========================================================================
+// Base Surface Colors for Container elements
+// ========================================================================
+
+// Lightest group
+$dds-color--surface--lightest:                  $dds-color--white !default;
+$dds-color--surface--lightest--text:            $dds-color--text !default;
+$dds-color--surface--lightest--link:            $dds-color--ui-link !default;
+$dds-color--surface--lightest--link--visited:   $dds-color--ui-link--visited !default;
+$dds-color--surface--lightest--link--hover:     $dds-color--ui-link--hover !default;
+$dds-color--surface--lightest--link--focus:     $dds-color--ui-link--focus !default;
+
+// Lighter group
+$dds-color--surface--lighter:                   $dds-color--gray-50 !default;
+$dds-color--surface--lighter--text:             $dds-color--text !default;
+$dds-color--surface--lighter--link:             $dds-color--ui-link !default;
+$dds-color--surface--lighter--link--visited:    $dds-color--ui-link--visited !default;
+$dds-color--surface--lighter--link--hover:      $dds-color--ui-link--hover !default;
+$dds-color--surface--lighter--link--focus:      $dds-color--ui-link--focus !default;
+
+// Base group
+$dds-color--surface--base:                      $dds-color--gray-200 !default;
+$dds-color--surface--base--text:                $dds-color--text !default;
+$dds-color--surface--base--link:                #00538c !default;  // Contrast with $dds-color--ui-link doesn't meet WCAG2 AA
+$dds-color--surface--base--link--visited:       #7551a6 !default;
+$dds-color--surface--base--link--hover:         #00305b !default;
+$dds-color--surface--base--link--focus:         #00305b !default;
+
+// Darker group
+$dds-color--surface--darker:                    $dds-color--gray-800 !default;
+$dds-color--surface--darker--text:              $dds-color--text--on-dark !default;
+$dds-color--surface--darker--link:              $dds-color--ui-link--on-dark !default;
+$dds-color--surface--darker--link--visited:     $dds-color--ui-link--on-dark--visited !default;
+$dds-color--surface--darker--link--hover:       $dds-color--ui-link--on-dark--hover !default;
+$dds-color--surface--darker--link--focus:       $dds-color--ui-link--on-dark--focus !default;
+
+// Darkest group
+$dds-color--surface--darkest:                   $dds-color--gray-1000 !default;
+$dds-color--surface--darkest--text:             $dds-color--text--on-dark !default;
+$dds-color--surface--darkest--link:             $dds-color--ui-link--on-dark !default;
+$dds-color--surface--darkest--link--visited:    $dds-color--ui-link--on-dark--visited !default;
+$dds-color--surface--darkest--link--hover:      $dds-color--ui-link--on-dark--hover !default;
+$dds-color--surface--darkest--link--focus:      $dds-color--ui-link--on-dark--focus !default;
+
+// Complement group
+$dds-color--surface--complement:                $ddselements--blue;
+$dds-color--surface--complement--text:          $dds-color--text--on-dark !default;
+$dds-color--surface--complement--link:          $dds-color--ui-link--on-dark !default;
+$dds-color--surface--complement--link--visited: $dds-color--ui-link--on-dark--visited !default;
+$dds-color--surface--complement--link--hover:   $dds-color--ui-link--on-dark--hover !default;
+$dds-color--surface--complement--link--focus:   $dds-color--ui-link--on-dark--focus !default;
+
+
+// Accent group
+$dds-color--surface--accent:                    $ddselements--orange;
+$dds-color--surface--accent--text:              $dds-color--text--on-dark !default;
+$dds-color--surface--accent--link:              $dds-color--ui-link--on-dark !default;
+$dds-color--surface--accent--link--visited:     $dds-color--ui-link--on-dark--visited !default;
+$dds-color--surface--accent--link--hover:       $dds-color--ui-link--on-dark--hover !default;
+$dds-color--surface--accent--link--focus:       $dds-color--ui-link--on-dark--focus !default;
+
+
+
+/* Palette of Border Colors */
+$dds-color--surface--border:                    $dds-color--gray-200 !default;  // Was #ccc
+$dds-color--surface--border--lightest:          $dds-color--gray-100 !default;  // Was #e7e7e7
+$dds-color--surface--border--darkest:           $dds-color--gray-800 !default;
+
+/* Palette of Feedback Colors */
+$dds-color--feedback--critical:                 $dds-color--red-600 !default;
+$dds-color--feedback--critical--lightest:       $dds-color--red-50 !default;
+$dds-color--feedback--critical--darkest:        $dds-color--red-800 !default;
+
+$dds-color--feedback--important:                $dds-color--orange-500 !default;
+$dds-color--feedback--important--lightest:      $dds-color--orange-50 !default;
+$dds-color--feedback--important--darkest:       $dds-color--orange-700 !default;
+
+$dds-color--feedback--moderate:                 $dds-color--yellow-400 !default;
+$dds-color--feedback--moderate--lightest:       $dds-color--yellow-50 !default;
+$dds-color--feedback--moderate--darkest:        $dds-color--yellow-700 !default;
+
+$dds-color--feedback--success:                  #2e7d32 !default;
+$dds-color--feedback--success--lightest:        $dds-color--green-50 !default;
+$dds-color--feedback--success--darkest:         #1b5e20 !default;
+
+$dds-color--feedback--info:                     #0277bd !default;
+$dds-color--feedback--info--lightest:           $dds-color--blue-50 !default;
+$dds-color--feedback--info--darkest:            #01579b !default;
+
+$dds-color--feedback--default:                  $dds-color--gray-700 !default;
+$dds-color--feedback--default--lightest:        $dds-color--gray-100 !default;
+$dds-color--feedback--default--darkest:         $dds-color--gray-800 !default;
+
+
+// ========================================================================
+// ALL OF THESE MUST BE RESOLVED.
+// ========================================================================
+$dds-global--color--white:             $pf-color-white !default;
+$dds-global--color--black:             #1a1a1a !default; // We don't use true black on the web.
+$dds-global--color--red:               $pf-color-red-100 !default; // Not to be used as a background color (except in site footer) or as an error color.
+
+$dds-global--color--gray-gainsboro:    #dcdcdc !default;  // Official color name
+$dds-global--color--gray-space:        #4c4c4c !default;  // Official color name Outer Space.
+
+$dds-global--color--blue-sky:          #a3dbe8 !default;
+$dds-global--color--blue-sky-deep:     $pf-color-light-blue-400 !default;
+$dds-global--color--gold:              $pf-color-gold-400 !default;
+$dds-global--color--green:             $pf-color-light-green-400 !default;
+$dds-global--color--purple:            #7551a6 !default;
+$dds-global--color--teal:              $pf-color-cyan-400 !default;
+$dds-global--color--teal-dark:         #004153 !default;     // Brand as "Dark Blue"
+
+// RH-specific Accents
+$dds-global--color--blue-peacock:      $pf-color-blue-400 !default;
+$dds-global--color--orange:            $pf-color-orange-400 !default; // Near match to "Tangerine"
+$dds-global--color--green-verde:       $pf-color-green-400 !default;
+$dds-global--color--gray-charcoal:     #37424a !default;     // Or Big Stone
+$dds-global--color--gray-nickel:       #7a858b !default;     // Or Regent Gray
+$dds-global--color--black-soft:        #252527 !default;     // Or Jaguar?
+
+// RH Reds
+$dds-global--color--red-brick:         $pf-color-red-200 !default; // Or Bright Blood Red
+$dds-global--color--red-maroon:        #820000 !default;     // Or Burgundy, or Dark Red
+$dds-global--color--red-garnet:        #6e0000 !default;     // Or Rosewood or Blood or Currant
+$dds-global--color--red-morello:       #5a0000 !default;     // Near match to Chocolate Cosmos
+$dds-global--color--red-red-wine:      #460000 !default;
+$dds-global--color--red-daredevil:     #320000 !default;
+
+// RH Grays
+$dds-global--color--gray-moon:         #f0f0f0 !default;      // Made up name.
+$dds-global--color--gray-platinum:     #e7e7e7 !default;      // Personal choice, close to Gainsboro. Was #e6e6e6, but fails contrast ratio w/ link colors.
+$dds-global--color--gray-mercury:      #d2d2d2 !default;      // Official name: Light Gray
+$dds-global--color--gray-fog:          #bebebe !default;
+$dds-global--color--gray-stone:        #aaa !default;
+$dds-global--color--gray-storm:        #969696 !default;      // Near official name: Spanish Gray
+$dds-global--color--gray-battleship:   #828282 !default;      // Near official name: Battleship Gray
+$dds-global--color--gray-batman:       #6e6e6e !default;      // Official name: Dim Gray
+$dds-global--color--gray-umbra:        #5a5a5a !default;      // Near official name: Davy's Gray Or Mortar
+$dds-global--color--gray-iron:         #464646 !default;      // Near Sherwin Williams.
+$dds-global--color--gray-night:        #333 !default;         // Used to be #323232. Simplified to match text-color.
+$dds-global--color--black-nero:        #1e1e1e !default;      // Vader?
+
+// CP Grays
+$dds-global--color--gray-nimbus:       $pf-color-black-200 !default; // Border-color!
+$dds-global--color--gray-silver:       #ccc !default;         // Used to be called $misty
+
+// CP-specific
+$dds-global--color--blue-rain:         #264a60 !default;
+$dds-global--color--blue-denim:        #06c !default;         // Or navy-bright?
+$dds-global--color--blue-navy:         #004080 !default;
+$dds-global--color--blue-azure:        #0076e0 !default;
+
+$dds-global--color--blue-maya:         #73bcf7 !default;      // Link
+$dds-global--color--blue-dodger:       #2b9af3 !default;      // Hover
+$dds-global--color--purple-amethyst:   #967abd !default;
+$dds-global--color--purple-rain:       #3b0083 !default;      // Old RH purple.
+
+
+$dds-global--color--product-lines: (
+default:             $dds-global--color--black-soft,
+storage:             $dds-global--color--gold,
+storage--dark:       $dds-global--color--orange,
+infrastructure:      $dds-global--color--blue-sky-deep,
+infrastructure--dark:$dds-glob--color--blue-peacock,
+app-dev:             $dds-glob--color--green,
+app-dev--dark:       $dds-glob--color--green-verde,
+support:             $dds-glob--color--gray-nickel,
+support--dark:       $dds-glob--color--gray-charcoal
+) !default;
+
+
+// PALETTE REDS
+$dds-global--color--red-dark1:         $dds-global--color--red-brick !default;
+$dds-global--color--red-dark2:         $dds-global--color--red-maroon !default;
+$dds-global--color--red-dark3:         $dds-global--color--red-garnet !default;
+$dds-global--color--red-dark4:         $dds-global--color--red-morello !default;
+$dds-global--color--red-dark5:         $dds-global--color--red-red-wine !default;
+$dds-global--color--red-dark6:         $dds-global--color--red-daredevil !default;
+
+// PALETTE GRAYS: lightest to darkest
+$dds-global--color--gray1:             $dds-global--color--gray-moon !default;
+$dds-global--color--gray2:             $dds-global--color--gray-platinum !default;
+$dds-global--color--gray3:             $dds-global--color--gray-mercury !default;
+$dds-global--color--gray4:             $dds-global--color--gray-fog !default;
+$dds-global--color--gray5:             $dds-global--color--gray-stone !default;
+$dds-global--color--gray6:             $dds-global--color--gray-storm !default;
+$dds-global--color--gray7:             $dds-global--color--gray-battleship !default;
+$dds-global--color--gray8:             $dds-global--color--gray-batman !default;
+$dds-global--color--gray9:             $dds-global--color--gray-umbra !default;
+$dds-global--color--gray10:            $dds-global--color--gray-iron !default;
+$dds-global--color--gray11:            $dds-global--color--gray-night !default;
+$dds-global--color--gray12:            $dds-global--color--black-nero !default;
+
+
+// ========================================================================
+// UI Colors
+// Where context switches...
+// ========================================================================
+
+$dds-global--text-color:           $dds-global--color--gray-night !default; // #333
+$dds-global--text-color--inverted: $dds-global--color--white !default;
+
+// Text links on _white_ or _light_ backgrounds
+$dds-global--link-color:           $dds-global--color--blue-denim !default;    // Link
+$dds-global--link-color--hover:    $dds-global--color--blue-navy !default;     // Hover
+$dds-global--link-color--focus:    $dds-global--color--blue-navy !default;     // Focus
+$dds-global--link-color--active:   $dds-global--color--blue-navy !default;     // Active
+$dds-global--link-color--visited:  $dds-global--color--purple !default;        // :Visited
+
+// Text links on _dark grey_ or _black_ backgrounds
+$dds-global--link-color--inverted:          $dds-global--color--blue-maya !default; // Link
+$dds-global--link-color--inverted--hover:   $dds-global--color--blue-dodger !default; // Hover
+$dds-global--link-color--inverted--focus:   $dds-global--color--blue-dodger !default; // Focus
+$dds-global--link-color--inverted--active:  $dds-global--color--blue-dodger !default; // Active
+$dds-global--link-color--inverted--visited: $dds-global--color--purple-amethyst !default;
+
+// UI elements, like buttons
+$dds-global--ui-element-color:           $dds-global--color--blue-azure !default;   // Smaller elements, like solid buttons
+$dds-global--ui-element-color--hover:    $dds-global--color--blue-navy !default;
+$dds-global--ui-element-color--focus:    $dds-global--color--blue-navy !default;
+$dds-global--ui-element-color--active:   $dds-global--color--blue-navy !default;
+
+// States, e.g. Filter button on search.
+// Questions here...
+$dds-global--hover-state--Color:               $dds-global--color--red !default;
+$dds-global--hover-state--BackgroundColor:     $dds-global--color--red-maroon !default;
+$dds-global--hover-state--BorderColor:         $dds-global--color--red-maroon !default;
+// Questions here...
+$dds-global--active-state--Color:              $dds-global--color--blue-navy !default;
+$dds-global--active-state--BackgroundColor:    $pf-color-blue-100 !default;
+$dds-global--active-state--BorderColor:        $pf-color-blue-100 !default;
+// Questions here...
+$dds-global--disabled-state--Color:              $dds-global--color--gray-stone !default;
+$dds-global--disabled-state--BackgroundColor:    $dds-global--color--gray-mercury !default;
+$dds-global--disabled-state--BorderColor:        $dds-global--color--gray-mercury !default;
+
+
+// ========================================================================
+// Theme colors
+// ========================================================================
+
+// I think these are misplaced. Should be in cp-themeset instead.
+// $dds-global--primary-color:         $dds-global--color--red !default;
+// $dds-global--secondary-color:       $pf-color-black-600 !default;
+//
+// $dds-global--light-color:         $pf-color-black-100 !default;
+// $dds-global--dark-color:          $pf-color-black-800 !default;
+
+$dds-global--success-color:         $pf-color-green-100 !default;
+$dds-global--success-color--dark:   $dds-global--color--green !default;
+$dds-global--info-color:            $pf-color-cyan-100 !default;
+$dds-global--info-color--dark:      $dds-global--color--teal !default;
+$dds-global--warning-color:         $pf-color-orange-100 !default;
+$dds-global--warning-color--dark:   $dds-global--color--orange !default;
+$dds-global--danger-color:          $dds-global--color--red !default;
+$dds-global--danger-color--dark:    $dds-global--color--red-maroon !default;

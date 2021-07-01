@@ -1,0 +1,78 @@
+//
+// NEEDS TO BE CLEANED UP
+
+
+// See _maps.scss
+// Use #{dds-var($cssvar)}
+
+
+// ========================================================================
+// UI Styles
+// ========================================================================
+
+$dds-global--link--TextDecoration: underline;
+$dds-global--link--TextDecoration--hover: underline;
+
+// ========================================================================
+// Borders
+// ========================================================================
+
+$dds-global--border-width:                    1px !default;
+$dds-global--border-style:                    solid !default;
+$dds-global--border-radius:                   2px;
+// For border color, see _colors.scss
+
+// ========================================================================
+// Shadows
+// ========================================================================
+
+$dds-global--box-shadow--sm:                  0  dds-size-prem(1)  dds-size-prem(2) 0 rgba($dds-color--gray-1000, .2) !default;
+$dds-global--box-shadow--md:                  0  dds-size-prem(2)  dds-size-prem(1) dds-size-prem(1) rgba($dds-color--gray-1000, .12), 0  dds-size-prem(4)  dds-size-prem(11) dds-size-prem(6) rgba($dds-color--gray-1000, .05) !default;
+$dds-global--box-shadow--lg:                  0  dds-size-prem(3)  dds-size-prem(7) dds-size-prem(3) rgba($dds-color--gray-1000, .13), 0  dds-size-prem(11)  dds-size-prem(24) dds-size-prem(16) rgba($dds-color--gray-1000, .12) !default;
+$dds-global--box-shadow--inset:               inset 0 0 dds-size-prem(10) 0 rgba($dds-color--gray-1000, .25) !default;
+
+// ========================================================================
+// Animations
+// ========================================================================
+
+$dds-global--animation-timing:                cubic-bezier(0.465, 0.183, 0.153, 0.946);
+
+
+// ========================================================================
+// Needs to be resolved! DO NOT USE!
+// ========================================================================
+
+$dds-global--border--BorderWidth:         $dds-global--border-width;
+$dds-global--border--BorderWidth--thin:   $dds-global--border-width;
+
+$dds-global--border--BorderStyle:         $dds-global--border-style;
+$dds-global--border--BorderColor:         $dds-color--surface--border;
+$dds-global--border--BorderColor--light:  $dds-color--surface--border--lightest;
+$dds-global--border--BorderColor--dark:   $dds-color--surface--border--darkest;
+
+$dds-global--border--BorderRadius:         $dds-global--border-radius;
+$dds-global--button-border--BorderRadius:  $dds-global--border-radius;
+
+
+// ========================================================================
+// Shadows
+// ========================================================================
+
+$dds-global--shadow--BoxShadow--sm:  $dds-global--box-shadow--sm;
+$dds-global--shadow--BoxShadow--md:  $dds-global--box-shadow--md;
+$dds-global--shadow--BoxShadow--lg:  $dds-global--box-shadow--lg;
+
+$dds-global--shadow--BoxShadow--sm-right:  dds-size-prem(4)  0  dds-size-prem(10) dds-size-prem(-4) rgba($pf-color-black-1000, .12) !default;
+$dds-global--shadow--BoxShadow--sm-left:   dds-size-prem(-4) 0 dds-size-prem(10) dds-size-prem(-4) rgba($pf-color-black-1000, .12) !default;
+$dds-global--shadow--BoxShadow--sm-bottom: 0 dds-size-prem(4) 0 dds-size-prem(10) dds-size-prem(-4) rgba($pf-color-black-1000, .12) !default;
+$dds-global--shadow--BoxShadow--sm-top:    0 dds-size-prem(-4) 0 dds-size-prem(10) dds-size-prem(-4) rgba($pf-color-black-1000, .12) !default;
+$dds-global--shadow--BoxShadow--md-right:  dds-size-prem(5) 0 dds-size-prem(10) dds-size-prem(-4) rgba($pf-color-black-1000, .25) !default;
+$dds-global--shadow--BoxShadow--md-left:   dds-size-prem(-5) 0 dds-size-prem(10) dds-size-prem(-4) rgba($pf-color-black-1000, .25) !default;
+$dds-global--shadow--BoxShadow--md-bottom: 0 dds-size-prem(5) dds-size-prem(10) dds-size-prem(-4) rgba($pf-color-black-1000, .25) !default;
+$dds-global--shadow--BoxShadow--md-top:    0 dds-size-prem(-5) dds-size-prem(10) dds-size-prem(-4) rgba($pf-color-black-1000, .25) !default;
+$dds-global--shadow--BoxShadow--lg-right:  dds-size-prem(12) 0 dds-size-prem(10) dds-size-prem(-4) rgba($pf-color-black-1000, .07) !default;
+$dds-global--shadow--BoxShadow--lg-left:   dds-size-prem(-12) 0 dds-size-prem(10) dds-size-prem(-4) rgba($pf-color-black-1000, .07) !default;
+$dds-global--shadow--BoxShadow--lg-bottom: 0 dds-size-prem(12) dds-size-prem(10) dds-size-prem(-4) rgba($pf-color-black-1000, .07) !default;
+$dds-global--shadow--BoxShadow--lg-top:    0 dds-size-prem(-12) dds-size-prem(10) dds-size-prem(-4) rgba($pf-color-black-1000, .07) !default;
+
+$dds-global--shadow--BoxShadow--inset:     $dds-global--box-shadow--inset;

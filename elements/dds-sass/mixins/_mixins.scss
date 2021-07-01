@@ -1,0 +1,144 @@
+// $boxSize = any box-sizing property, default is border-box
+@mixin dds-box-sizing($boxSize: border-box) {
+  *, *::before, *::after {
+    box-sizing: $boxSize;
+  }
+}
+
+@mixin dds-clearfix {
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+
+@mixin dds-reset-list() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin dds-reset-box() {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin dds-sr-only() {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+@mixin dds-transition($properties...) {
+  $return: null;
+  @each $property in $properties {
+    @if length($property) == 1 {
+      $return: append($return, #{$property} 250ms $dds-global--animation-timing, comma);
+    }
+    @else if length($property) == 2 {
+      $return: append($return, nth($property, 1) nth($property, 2), comma);
+    }
+  }
+  transition: $return;
+}
+
+// Make a CSS arrow
+@mixin dds-arrow($type, $color, $width: 8px, $height: 5px, $pseudo: false) {
+  $direction: (
+  up: 180deg,
+  down: 0deg,
+  right: -90deg,
+  left: 90deg,
+);
+  border-style: solid;
+  border-width: $width $height 0;
+  border-color: transparent;
+  border-top-color: $color;
+  transform: rotate(map-get($direction, $type));
+  @if $pseudo {
+    display: inline-block;
+    content: "";
+    @content;
+  }
+}
+
+@mixin dds-arrow-color($color) {
+  border-top-color: $color;
+}
+
+@mixin dds-print-media {
+  @media print {
+    @content;
+  }
+}
+
+@mixin dds-print-background {
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
+// scss-lint:disable ImportantRule
+@mixin dds-no-print-background {
+  @include print-media {
+    background-color: white !important;
+    background-image: none !important;
+    box-shadow: none !important;
+  }
+}
+// scss-lint:enable ImportantRule
+
+@mixin dds-pipe( $position: right, $padding: 0, $margin: 0, $color: $border-color) {
+  border: 1px solid transparent;
+  border-#{$position}-color: $color;
+  @if $position == right {
+    padding-left: $padding;
+    margin-right: $margin;
+  }
+  @else if $position == left {
+    padding-right: $padding;
+    margin-left: $margin;
+  }
+}
+
+@mixin dds-retina {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    @content;
+  }
+}
+
+
+/// RH Define Vars
+/// Helps define the CSS Var madness, making it easier for devs!
+/// @param {String} $this-component-var - Component specific variable name
+/// @param {String} $this-theme-var - Theme variable name
+/// @param {String} $this-fallback - Fallback color
+///
+/// ---------------------------------------------------------------------------
+///
+/// SASS fallback based on RHElements style
+/// $dds-global[--context][--state][--PropertyCamelCase]
+
+/// Theme level Var
+/// --dds-theme[--context][--state][--PropertyCamelCase]
+/// --dds-theme--heading--hover--BackgroundColor
+
+/// Component Var for theming specific cases
+/// --dds-[component-block][__element][--context][--state][--PropertyCamelCase]
+/// --dds-teaser__title--link-color--visited
+/// --dds-teaser__subtitle--link-color--visited
+
+/// Defined locally for sanity
+/// --dds-local-[component-block][__element][--context][--state][--PropertyCamelCase]
+/// --dds-local-cta--link-color--inverted
+///
+/// ---------------------------------------------------------------------------
+///
+///                     ↓ component,         ↓ theme,         ↓ fallback
+@mixin dds-define-vars($this-component-var, $this-theme-var, $this-fallback) {
+  --dds-local-#{$this-component-var}: var(--dds-#{$this-component-var}, var(--dds-theme--#{$this-theme-var}, #{$this-fallback}));
+}

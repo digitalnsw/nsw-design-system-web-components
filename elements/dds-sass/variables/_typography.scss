@@ -1,0 +1,86 @@
+//
+// NEEDS TO BE CLEANED UP
+
+
+// See _maps.scss
+// Use #{dds-var($cssvar)}
+
+
+// ========================================================================
+// Base Typography
+// ========================================================================
+
+$dds-global--font-size:                   #{$dds-global--font-size-root}px !default;
+$dds-global--font-size--sm:               12px;
+$dds-global--font-size--lg:               18px;
+
+$dds-global--font-family:                 "Overpass", Overpass, Helvetica, helvetica, arial, sans-serif !default;
+$dds-global--font-family--heading:        "Overpass", Overpass, Helvetica, helvetica, arial, sans-serif !default;
+$dds-global--font-family--code:           "Overpass Mono", Consolas, Monaco, 'Andale Mono', monospace !default;
+
+$dds-global--line-height:                 1.5;
+$dds-global--line-height--for-sm:         1.5;
+$dds-global--line-height--for-lg:         1.2;
+
+$dds-global--font-size--heading--alpha:   32px;
+$dds-global--font-size--heading--beta:    24px;
+$dds-global--font-size--heading--gamma:   21px;
+$dds-global--font-size--heading--delta:   18px;
+$dds-global--font-size--heading--epsilon: 16px;
+$dds-global--font-size--heading--zeta:    14px;
+
+
+// ========================================================================
+// Needs to be resolved! DO NOT USE!
+// ========================================================================
+
+$dds-global--FontSize:         $dds-global--font-size;
+$dds-global--FontSize--sm:     $dds-global--font-size--sm;
+$dds-global--FontSize--lg:     $dds-global--font-size--lg;
+
+// Line heights
+$dds-global--LineHeight--sm:  1.2 !default;
+$dds-global--LineHeight:      1.5 !default; // base
+$dds-global--LineHeight--lg:  1.8 !default;
+
+// Font weights
+$dds-global--FontWeight--light:      300;
+$dds-global--FontWeight--normal:     500; // base
+$dds-global--FontWeight--semi-bold:  600;
+$dds-global--FontWeight--bold:       700;
+
+// Font families
+$dds-global--FontFamily--sans-serif:    "Overpass", Overpass, Helvetica, helvetica, arial, sans-serif;
+$dds-global--FontFamily--monospace:     "Overpass Mono", Consolas, Monaco, 'Andale Mono', monospace;
+
+
+// ========================================================================
+// Headings
+// ========================================================================
+
+// Heading sizes for Apps
+$dds-global--FontSize--heading--xxl:     dds-size-prem(32px) !default;
+$dds-global--FontSize--heading--xl:      dds-size-prem(28px) !default;
+$dds-global--FontSize--heading--lg:      dds-size-prem(24px) !default;
+$dds-global--FontSize--heading--md:      dds-size-prem(20px) !default;
+$dds-global--FontSize--heading--sm:      dds-size-prem(18px) !default;
+$dds-global--FontSize--heading--xs:      dds-size-prem(16px) !default;
+$dds-global--FontSize--heading--xxs:     dds-size-prem(14px) !default;
+
+// $pf-global--hero-title--FontSize:       pf-font-prem(48px) !default;
+// $pf-global--main-title--FontSize:       pf-font-prem(32px) !default;
+// $pf-global--secondary-title--FontSize:  pf-font-prem(24px) !default;
+// $pf-global--sub-title--FontSize:        pf-font-prem(19px) !default;
+// $pf-global--body--FontSize:             pf-font-prem(16px) !default;
+// $pf-global--caption--FontSize:          pf-font-prem(12px) !default;
+
+
+// ========================================================================
+// Icons Sizes
+// ========================================================================
+
+$dds-global--icon-size--xl:              dds-size-prem(64px) !default;
+$dds-global--icon-size--lg:              dds-size-prem(48px) !default;
+$dds-global--icon-size--md:              dds-size-prem(32px) !default;
+$dds-global--icon-size--sm:              dds-size-prem(16px) !default;
+$dds-global--icon-size--xs:              dds-size-prem(14px) !default;

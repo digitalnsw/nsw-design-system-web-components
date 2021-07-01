@@ -1,0 +1,132 @@
+// ========================================================================
+// CRAYOLA COLORS for RHElements
+//
+// Basic named colors to be assigned to context in _colors.scss
+//
+// While these are available for styling RHElements, it's recommended
+//    that developers try to utilize the context-based colors in
+//    _colors.scss first.
+//
+// ========================================================================
+
+
+// ========================================================================
+// RHElement Brand Colors
+// Namespaced with $ddselements-- to separate from colors below, which will
+//    be based on these colors.
+// ========================================================================
+
+$ddselements--orange:            #fe460d !default;
+$ddselements--orange-dark:       #e23b0e !default;
+$ddselements--orange-darkest:    #ad2b0c !default;
+
+$ddselements--blue:              #0477a4 !default;
+$ddselements--blue-dark:         #046a89 !default;
+$ddselements--blue-darkest:      #044554 !default;
+
+$ddselements--green:             #aee339 !default;
+$ddselements--green-dark:        #a2c935 !default;
+$ddselements--green-darkest:     #7c9328 !default;
+
+$ddselements--gray:              #797979 !default;
+$ddselements--gray-light:        #d2d2d2 !default;
+$ddselements--gray-dark:         #333 !default;
+
+// Other tertiary named colors to be used below
+$ddselements--red:               #c00 !default;
+$ddselements--yellow:            #f0ab00 !default;
+$ddselements--cyan:              #007a87 !default;
+$ddselements--purple:            rebeccapurple !default; // Was #703fec
+
+// ========================================================================
+// B&W, Gray Values
+// ========================================================================
+
+$dds-color--white:               #fff !default;
+$dds-color--gray-50:             lighten($ddselements--gray, 60%) !default;
+$dds-color--gray-100:            lighten($ddselements--gray, 50%) !default;
+$dds-color--gray-150:            $ddselements--gray-light !default;
+$dds-color--gray-200:            lighten($ddselements--gray, 40%) !default;
+$dds-color--gray-300:            lighten($ddselements--gray, 30%) !default;
+$dds-color--gray-400:            lighten($ddselements--gray, 20%) !default;
+$dds-color--gray-500:            lighten($ddselements--gray, 10%) !default;
+$dds-color--gray-600:            $ddselements--gray !default;                 // Aliased
+$dds-color--gray-700:            darken($ddselements--gray, 10%) !default;
+$dds-color--gray-800:            darken($ddselements--gray, 20%) !default;
+$dds-color--gray-900:            darken($ddselements--gray, 30%) !default;
+$dds-color--gray-1000:           darken($ddselements--gray, 40%) !default;
+$dds-color--black:               $dds-color--gray-1000 !default;               // Aliased
+
+// ========================================================================
+// Hue Rainbow Values!
+// ========================================================================
+
+$dds-color--red-50:              lighten($ddselements--red, 50%) !default;
+$dds-color--red-100:             lighten($ddselements--red, 40%) !default;
+$dds-color--red-200:             lighten($ddselements--red, 30%) !default;
+$dds-color--red-300:             lighten($ddselements--red, 20%) !default;
+$dds-color--red-400:             lighten($ddselements--red, 10%) !default;
+$dds-color--red-500:             $ddselements--red !default;                // Aliased
+$dds-color--red-600:             darken($ddselements--red, 10%) !default;
+$dds-color--red-700:             darken($ddselements--red, 20%) !default;
+$dds-color--red-800:             darken($ddselements--red, 30%) !default;
+
+$dds-color--orange-50:           lighten($ddselements--orange, 40%) !default;
+$dds-color--orange-100:          lighten($ddselements--orange, 30%) !default;
+$dds-color--orange-200:          lighten($ddselements--orange, 20%) !default;
+$dds-color--orange-300:          lighten($ddselements--orange, 10%) !default;
+$dds-color--orange-400:          $ddselements--orange !default;              // Aliased
+$dds-color--orange-500:          darken($ddselements--orange, 10%) !default;
+$dds-color--orange-600:          darken($ddselements--orange, 20%) !default;
+$dds-color--orange-700:          darken($ddselements--orange, 30%) !default;
+$dds-color--orange-800:          darken($ddselements--orange, 40%) !default;
+
+$dds-color--yellow-50:           lighten($ddselements--yellow, 50%) !default;
+$dds-color--yellow-100:          lighten($ddselements--yellow, 40%) !default;
+$dds-color--yellow-200:          lighten($ddselements--yellow, 30%) !default;
+$dds-color--yellow-300:          lighten($ddselements--yellow, 20%) !default;
+$dds-color--yellow-400:          lighten($ddselements--yellow, 10%) !default;
+$dds-color--yellow-500:          $ddselements--yellow !default;              // Aliased
+$dds-color--yellow-600:          darken($ddselements--yellow, 10%) !default;
+$dds-color--yellow-700:          darken($ddselements--yellow, 20%) !default;
+$dds-color--yellow-800:          darken($ddselements--yellow, 30%) !default;
+
+$dds-color--green-50:            lighten($ddselements--green, 40%) !default;
+$dds-color--green-100:           lighten($ddselements--green, 30%) !default;
+$dds-color--green-200:           lighten($ddselements--green, 20%) !default;
+$dds-color--green-300:           lighten($ddselements--green, 10%) !default;
+$dds-color--green-400:           $ddselements--green !default;              // Aliased
+$dds-color--green-500:           darken($ddselements--green, 10%) !default;
+$dds-color--green-600:           darken($ddselements--green, 20%) !default;
+$dds-color--green-700:           darken($ddselements--green, 30%) !default;
+$dds-color--green-800:           darken($ddselements--green, 40%) !default;
+
+$dds-color--cyan-50:             lighten($ddselements--cyan, 60%) !default;
+$dds-color--cyan-100:            lighten($ddselements--cyan, 50%) !default;
+$dds-color--cyan-200:            lighten($ddselements--cyan, 40%) !default;
+$dds-color--cyan-300:            lighten($ddselements--cyan, 30%) !default;
+$dds-color--cyan-400:            lighten($ddselements--cyan, 20%) !default;
+$dds-color--cyan-500:            lighten($ddselements--cyan, 10%) !default;
+$dds-color--cyan-600:            $ddselements--cyan !default;              // Aliased
+$dds-color--cyan-700:            darken($ddselements--cyan, 10%) !default;
+$dds-color--cyan-800:            darken($ddselements--cyan, 20%) !default;
+
+$dds-color--blue-50:             lighten($ddselements--blue, 60%) !default;
+$dds-color--blue-100:            lighten($ddselements--blue, 50%) !default;
+$dds-color--blue-200:            lighten($ddselements--blue, 40%) !default;
+$dds-color--blue-300:            lighten($ddselements--blue, 30%) !default;
+$dds-color--blue-400:            lighten($ddselements--blue, 20%) !default;
+$dds-color--blue-500:            lighten($ddselements--blue, 10%) !default;
+$dds-color--blue-600:            $ddselements--blue !default;              // Aliased
+$dds-color--blue-700:            darken($ddselements--blue, 10%) !default;
+$dds-color--blue-800:            darken($ddselements--blue, 20%) !default;
+
+$dds-color--purple-50:           lighten($ddselements--purple, 40%) !default;
+$dds-color--purple-100:          lighten($ddselements--purple, 30%) !default;
+$dds-color--purple-200:          lighten($ddselements--purple, 20%) !default;
+$dds-color--purple-300:          lighten($ddselements--purple, 10%) !default;
+$dds-color--purple-400:          $ddselements--purple !default;            // Aliased
+$dds-color--purple-500:          darken($ddselements--purple, 10%) !default;
+$dds-color--purple-600:          darken($ddselements--purple, 20%) !default;
+$dds-color--purple-700:          darken($ddselements--purple, 30%) !default;
+$dds-color--purple-800:          darken($ddselements--purple, 40%) !default;
