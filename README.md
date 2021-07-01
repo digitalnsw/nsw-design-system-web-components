@@ -17,7 +17,7 @@ NSW Design System Web Components
 
 ```bash
 $ git clone git@github.com:digitalnsw/nsw-design-system-web-components.git
-$ cd nsw-design-system-wc
+$ cd nsw-design-system-web-component
 $ yarn install
 $ yarn start
 ```
@@ -55,7 +55,7 @@ Run `wcf element` to make a new element. Go to the new element following the dir
 ### Example development on a web component
 
 ```bash
-$ cd /Sites/nsw-design-system-wc
+$ cd /Sites/nsw-design-system-web-components
 $ yarn start
 
 # SHIFT + CTRL + T to open a new tab in Terminal
