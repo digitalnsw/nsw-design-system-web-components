@@ -45,6 +45,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@digitalnsw/dds-sass": "^0.0.6",
     "lit-element": "2.4.0"
   },
   "devDependencies": {
@@ -74,5 +75,5 @@
     "web-components",
     "html"
   ],
-  "gitHead": "15c08b29ddfbaeb0553fb04a4894b36e97c1195c"
+  "gitHead": "a2c581aceefd68519f4c53feee55faff6a9d3718"
 }

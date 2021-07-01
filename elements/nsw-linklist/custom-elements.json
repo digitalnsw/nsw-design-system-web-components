@@ -1,0 +1,30 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "nsw-linklist",
+      "path": "./nsw-linklist.js",
+      "description": "`nsw-linklist`\n`Link lists are a structured way of displaying links to content with a common theme.`",
+      "attributes": [
+        {
+          "name": "items",
+          "type": "object",
+          "default": "\"\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "items",
+          "attribute": "items",
+          "type": "object",
+          "default": "\"\""
+        }
+      ]
+    },
+    {
+      "name": "nsw-linklist",
+      "path": "./src/nsw-linklist.js",
+      "description": "`nsw-linklist`\n`Link lists are a structured way of displaying links to content with a common theme.`"
+    }
+  ]
+}
