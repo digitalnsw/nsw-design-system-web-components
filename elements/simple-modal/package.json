@@ -17,7 +17,7 @@
     },
     "sharedStyles": []
   },
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "A simple modal that ensures accessibility and stack order context appropriately",
   "repository": {
     "type": "git",
@@ -48,9 +48,9 @@
     "web-dialog": "0.0.11"
   },
   "devDependencies": {
-    "@digitalnsw/deduping-fix": "^0.0.10",
-    "@digitalnsw/simple-fields": "^0.0.10",
-    "@digitalnsw/storybook-utilities": "^0.0.10",
+    "@digitalnsw/deduping-fix": "^0.0.11",
+    "@digitalnsw/simple-fields": "^0.0.11",
+    "@digitalnsw/storybook-utilities": "^0.0.11",
     "@open-wc/testing": "2.5.33",
     "@polymer/iron-component-page": "github:PolymerElements/iron-component-page",
     "@polymer/iron-demo-helpers": "3.1.0",

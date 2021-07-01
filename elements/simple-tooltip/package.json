@@ -16,7 +16,7 @@
       "hax": "src/simple-tooltip-hax.json"
     }
   },
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "a simple tooltip forked from paper-tooltip with the same api",
   "repository": {
     "type": "git",
@@ -44,7 +44,7 @@
     "lit": "2.0.0-rc.2"
   },
   "devDependencies": {
-    "@digitalnsw/deduping-fix": "^0.0.10",
+    "@digitalnsw/deduping-fix": "^0.0.11",
     "@open-wc/testing": "2.5.33",
     "@polymer/iron-component-page": "github:PolymerElements/iron-component-page",
     "@polymer/iron-demo-helpers": "3.1.0",

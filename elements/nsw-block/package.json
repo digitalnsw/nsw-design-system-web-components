@@ -20,7 +20,7 @@
     "sharedProps": [],
     "sharedStyles": []
   },
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Content blocks allow users to select from multiple actions related to a topic or task.",
   "repository": {
     "type": "git",
@@ -45,7 +45,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@digitalnsw/dds-sass": "^0.0.10",
+    "@digitalnsw/dds-sass": "^0.0.11",
     "lit-element": "2.4.0"
   },
   "devDependencies": {

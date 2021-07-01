@@ -19,7 +19,7 @@
       "...super.styles"
     ]
   },
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Uses JSON Schema or an array of fields to display a series of fields",
   "repository": {
     "type": "git",
@@ -45,21 +45,21 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
+    "@digitalnsw/simple-colors": "^0.0.11",
+    "@digitalnsw/simple-icon": "^0.0.10",
+    "@digitalnsw/simple-icon-picker": "^0.0.10",
+    "@digitalnsw/simple-picker": "^0.0.11",
+    "@digitalnsw/simple-toolbar": "^0.0.11",
+    "@digitalnsw/simple-tooltip": "^0.0.11",
     "@lrnwebcomponents/a11y-tabs": "^3.0.6",
     "@lrnwebcomponents/code-editor": "^3.0.6",
     "@lrnwebcomponents/hax-iconset": "^3.0.6",
-    "@digitalnsw/simple-colors": "^0.0.10",
-    "@digitalnsw/simple-icon": "^0.0.10",
-    "@digitalnsw/simple-icon-picker": "^0.0.10",
-    "@digitalnsw/simple-picker": "^0.0.10",
-    "@digitalnsw/simple-toolbar": "^0.0.10",
-    "@digitalnsw/simple-tooltip": "^0.0.10",
     "@lrnwebcomponents/voice-recorder": "^3.0.6",
     "@vaadin/vaadin-upload": "^4.4.1",
     "lit": "2.0.0-rc.2"
   },
   "devDependencies": {
-    "@digitalnsw/deduping-fix": "^0.0.10",
+    "@digitalnsw/deduping-fix": "^0.0.11",
     "@open-wc/testing": "2.5.33",
     "@polymer/iron-component-page": "github:PolymerElements/iron-component-page",
     "@polymer/iron-demo-helpers": "3.1.0",

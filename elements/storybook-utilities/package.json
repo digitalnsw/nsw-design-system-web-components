@@ -1,6 +1,6 @@
 {
   "name": "@digitalnsw/storybook-utilities",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "A series of utilities for `story.js` files",
   "repository": {
     "type": "git",
@@ -13,9 +13,9 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@digitalnsw/es-global-bridge": "^0.0.10",
-    "@digitalnsw/lorem-data": "^0.0.10",
-    "@digitalnsw/simple-colors": "^0.0.10",
+    "@digitalnsw/es-global-bridge": "^0.0.11",
+    "@digitalnsw/lorem-data": "^0.0.11",
+    "@digitalnsw/simple-colors": "^0.0.11",
     "@storybook/addon-knobs": "^5.3.13",
     "@storybook/polymer": "^5.3.13",
     "lorem-ipsum": "^2.0.3"
