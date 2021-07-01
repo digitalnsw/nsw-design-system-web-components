@@ -13,7 +13,7 @@
     "sharedStyles": []
   },
   "version": "0.0.10",
-  "description": "Automated conversion of responsive-utility/",
+  "description": "Automated conversion of responsive-utility",
   "repository": {
     "type": "git",
     "url": "https://github.com/digitalnsw/nsw-design-system-web-components.git"
@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@digitalnsw/deduping-fix": "^0.0.10",
-    "@digitalnsw/storybook-utilities": "^3.0.6",
+    "@digitalnsw/storybook-utilities": "^0.0.10",
     "@open-wc/testing": "2.5.33",
     "@polymer/iron-component-page": "github:PolymerElements/iron-component-page",
     "@polymer/iron-demo-helpers": "3.1.0",
@@ -66,5 +66,5 @@
     "web-components",
     "html"
   ],
-  "gitHead": "e38751e6f76a812e00ae87ef826fafcdbfec4083"
+  "gitHead": "2b878938d4833cc83cd3a85805dd07c3fec11398"
 }

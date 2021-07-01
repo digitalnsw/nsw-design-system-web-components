@@ -150,79 +150,13 @@
     },
     {
       "name": "simple-toolbar-menu-item",
-      "description": "`simple-toolbar-menu`\n`An icon / button that has support for multiple options via drop down.`\n\nEvents:\n\n  * `add-a11y-menu-button-item` {`CustomEvent<this>`} - Fires when menu item is added to dom\n\n  * `remove-a11y-menu-button-item` {`CustomEvent<this>`} - Fires when menu item is removed from dom\n\nAttributes:\n\n  * `disabled` {`boolean`} - Whether toggle is disabled\n\n  * `hidden` {`boolean`} - Whether toggle is disabled\n\n  * `href` {`string`} - Whether toggle is disabled\n\n  * `controls` {`string`} - Whether toggle is disabled\n\n  * `menuitem` {`string`} - \n\nProperties:\n\n  * `disabled` {`boolean`} - Whether toggle is disabled\n\n  * `hidden` {`boolean`} - Whether toggle is disabled\n\n  * `href` {`string`} - Whether toggle is disabled\n\n  * `controls` {`string`} - Whether toggle is disabled\n\n  * `slot` {`string`} - \n\n  * `linkTemplate` - renders item as a link\n\n  * `buttonTemplate` - renders item as a button",
-      "attributes": [
-        {
-          "name": "disabled",
-          "description": "`disabled` {`boolean`} - Whether toggle is disabled\n\nProperty: disabled",
-          "valueSet": "v"
-        },
-        {
-          "name": "hidden",
-          "description": "`hidden` {`boolean`} - Whether toggle is disabled\n\nProperty: hidden",
-          "valueSet": "v"
-        },
-        {
-          "name": "href",
-          "description": "`href` {`string`} - Whether toggle is disabled\n\nProperty: href"
-        },
-        {
-          "name": "controls",
-          "description": "`controls` {`string`} - Whether toggle is disabled\n\nProperty: controls"
-        },
-        {
-          "name": "menuitem",
-          "description": "`menuitem` {`string`} - \n\nProperty: slot"
-        },
-        {
-          "name": "onadd-a11y-menu-button-item",
-          "description": "`add-a11y-menu-button-item` {`CustomEvent<this>`} - Fires when menu item is added to dom"
-        },
-        {
-          "name": "onremove-a11y-menu-button-item",
-          "description": "`remove-a11y-menu-button-item` {`CustomEvent<this>`} - Fires when menu item is removed from dom"
-        }
-      ]
+      "description": "`simple-toolbar-menu`\n`An icon / button that has support for multiple options via drop down.`\n\n",
+      "attributes": []
     },
     {
       "name": "",
-      "description": "Events:\n\n  * `close` {`CustomEvent<Event>`} - Fires when menu is closed\n\n  * `open` {`CustomEvent<Event>`} - Fires when menu is opened\n\n  * `item-click` {`CustomEvent<Event>`} - \n\n  * `register-button` {`CustomEvent<this>`} - \n\n  * `deregister-button` {`CustomEvent<this>`} - \n\n  * `update-button-registry` {`CustomEvent<this>`} - \n\nAttributes:\n\n  * `currentItem` - Whether toggle is disabled\n\n  * `expanded` {`boolean`} - Whether toggle is disabled\n\n  * `focused` {`boolean`} - Whether button is toggled\n\n  * `hovered` {`boolean`} - Whether button is toggled\n\n  * `__menuItems` {`any[]`} - menu items in array form to move from prev to next\n\n  * `position` {`string`} - Positions list to top, right, bottom, left of its content.\n\n  * `position-align` {`string`} - Aligns list at start, or end fo target. Default is centered.\n\n  * `offset` {`number`} - spacing between top of list and menu button\n\n  * `controls` {`string`} - The `id` of the `simple-toolbar` that the toolbar controls.\n\n  * `icon` {`string`} - Optional iron icon name for the button.\n\n  * `label` {`string`} - Label for the icon.\n\n  * `show-tooltip` {`boolean`} - Alway show tooltip.\n\n  * `target` - The active selected range, inherited from the toolbar\n\n  * `toggled-icon` {`string`} - Optional iron icon name for the button if it is toggled.\n\n  * `toggled-label` {`string`} - Label for the icon, if button is toggled.\n\n  * `toggled` {`boolean`} - Can this button toggle?\n\n  * `toggled-tooltip` {`string`} - Label for the icon, if button is toggled.\n\n  * `disabled` {`boolean`} - Whether toggle is disabled\n\n  * `show-text-label` {`boolean`} - Show text label even if an icon is named?\n\n  * `toggles` {`boolean`} - Can this button toggle?\n\n  * `shortcut-keys` {`string`} - Optional space-separated list of shortcut keys\n\nProperties:\n\n  * `currentItem` - Whether toggle is disabled\n\n  * `expanded` {`boolean`} - Whether toggle is disabled\n\n  * `focused` {`boolean`} - Whether button is toggled\n\n  * `hovered` {`boolean`} - Whether button is toggled\n\n  * `menuTemplate` - template for dropdown menu\n\n  * `listItemTemplate` - template for slotted list items\n\n  * `keyCode` {`{ TAB: number; RETURN: number; ESC: number; SPACE: number; PAGEUP: number; PAGEDOWN: number; END: number; HOME: number; LEFT: number; UP: number; RIGHT: number; DOWN: number; }`} - key code translations as object\n\n  * `__menuItems` {`any[]`} - menu items in array form to move from prev to next\n\n  * `position` {`string`} - Positions list to top, right, bottom, left of its content.\n\n  * `positionAlign` {`string`} - Aligns list at start, or end fo target. Default is centered.\n\n  * `offset` {`number`} - spacing between top of list and menu button\n\n  * `controls` {`string`} - The `id` of the `simple-toolbar` that the toolbar controls.\n\n  * `icon` {`string`} - Optional iron icon name for the button.\n\n  * `label` {`string`} - Label for the icon.\n\n  * `showTooltip` {`boolean`} - Alway show tooltip.\n\n  * `target` - The active selected range, inherited from the toolbar\n\n  * `toggledIcon` {`string`} - Optional iron icon name for the button if it is toggled.\n\n  * `toggledLabel` {`string`} - Label for the icon, if button is toggled.\n\n  * `toggled` {`boolean`} - Can this button toggle?\n\n  * `toggledTooltip` {`string`} - Label for the icon, if button is toggled.\n\n  * `button` - gets button element\n\n  * `currentLabel` {`string`} - current label based on toggled state\n\n  * `currentIcon` {`string`} - current icon based on toggled state\n\n  * `currentTooltip` {`string`} - current label based on toggled state\n\n  * `isToggled` {`number`} - determines if button is toggled\n\n  * `hasLabel` {`boolean`} - is label specified\n\n  * `hasIcon` {`boolean`} - is icon specified\n\n  * `hasTooltip` {`boolean`} - is tooltip specified\n\n  * `labelVisible` {`boolean`} - is visible label is needed or specified\n\n  * `tooltipVisible` - is tooltip needed or specified\n\n  * `iconTemplate` - template for button icon\n\n  * `labelTemplate` - template for button label\n\n  * `tooltipTemplate` - template for button tooltip\n\n  * `buttonTemplate` - template for button\n\n  * `iconPosition` {`string`} - \n\n  * `alignVertical` {`string`} - \n\n  * `alignHorizontal` {`string`} - \n\n  * `disabled` {`boolean`} - Whether toggle is disabled\n\n  * `showTextLabel` {`boolean`} - Show text label even if an icon is named?\n\n  * `toggles` {`boolean`} - Can this button toggle?\n\n  * `shortcutKeys` {`string`} - Optional space-separated list of shortcut keys",
+      "description": "Events:\n\n  * `register-button` {`CustomEvent<this>`} - \n\n  * `deregister-button` {`CustomEvent<this>`} - \n\n  * `update-button-registry` {`CustomEvent<this>`} - \n\nAttributes:\n\n  * `controls` {`string`} - The `id` of the `simple-toolbar` that the toolbar controls.\n\n  * `icon` {`string`} - Optional iron icon name for the button.\n\n  * `label` {`string`} - Label for the icon.\n\n  * `show-tooltip` {`boolean`} - Alway show tooltip.\n\n  * `target` - The active selected range, inherited from the toolbar\n\n  * `toggled-icon` {`string`} - Optional iron icon name for the button if it is toggled.\n\n  * `toggled-label` {`string`} - Label for the icon, if button is toggled.\n\n  * `toggled` {`boolean`} - Can this button toggle?\n\n  * `toggled-tooltip` {`string`} - Label for the icon, if button is toggled.\n\n  * `show-text-label` {`boolean`} - Show text label even if an icon is named?\n\n  * `toggles` {`boolean`} - Can this button toggle?\n\n  * `shortcut-keys` {`string`} - Optional space-separated list of shortcut keys\n\nProperties:\n\n  * `listItemTemplate` - template for slotted list items\n\n  * `controls` {`string`} - The `id` of the `simple-toolbar` that the toolbar controls.\n\n  * `icon` {`string`} - Optional iron icon name for the button.\n\n  * `label` {`string`} - Label for the icon.\n\n  * `showTooltip` {`boolean`} - Alway show tooltip.\n\n  * `target` - The active selected range, inherited from the toolbar\n\n  * `toggledIcon` {`string`} - Optional iron icon name for the button if it is toggled.\n\n  * `toggledLabel` {`string`} - Label for the icon, if button is toggled.\n\n  * `toggled` {`boolean`} - Can this button toggle?\n\n  * `toggledTooltip` {`string`} - Label for the icon, if button is toggled.\n\n  * `button` - gets button element\n\n  * `currentLabel` {`string`} - current label based on toggled state\n\n  * `currentIcon` {`string`} - current icon based on toggled state\n\n  * `currentTooltip` {`string`} - current label based on toggled state\n\n  * `isToggled` {`number`} - determines if button is toggled\n\n  * `hasLabel` {`boolean`} - is label specified\n\n  * `hasIcon` {`boolean`} - is icon specified\n\n  * `hasTooltip` {`boolean`} - is tooltip specified\n\n  * `labelVisible` {`boolean`} - is visible label is needed or specified\n\n  * `tooltipVisible` - is tooltip needed or specified\n\n  * `iconTemplate` - template for button icon\n\n  * `labelTemplate` - template for button label\n\n  * `tooltipTemplate` - template for button tooltip\n\n  * `buttonTemplate` - template for button, based on whether or not the button toggles\n\n  * `iconPosition` {`string`} - \n\n  * `alignVertical` {`string`} - \n\n  * `alignHorizontal` {`string`} - \n\n  * `disabled` {`boolean`} - \n\n  * `showTextLabel` {`boolean`} - Show text label even if an icon is named?\n\n  * `toggles` {`boolean`} - Can this button toggle?\n\n  * `shortcutKeys` {`string`} - Optional space-separated list of shortcut keys",
       "attributes": [
-        {
-          "name": "currentItem",
-          "description": "`currentItem` - Whether toggle is disabled\n\nProperty: currentItem"
-        },
-        {
-          "name": "expanded",
-          "description": "`expanded` {`boolean`} - Whether toggle is disabled\n\nProperty: expanded",
-          "valueSet": "v"
-        },
-        {
-          "name": "focused",
-          "description": "`focused` {`boolean`} - Whether button is toggled\n\nProperty: focused",
-          "valueSet": "v"
-        },
-        {
-          "name": "hovered",
-          "description": "`hovered` {`boolean`} - Whether button is toggled\n\nProperty: hovered",
-          "valueSet": "v"
-        },
-        {
-          "name": "__menuItems",
-          "description": "`__menuItems` {`any[]`} - menu items in array form to move from prev to next\n\nProperty: __menuItems\n\nDefault: "
-        },
-        {
-          "name": "position",
-          "description": "`position` {`string`} - Positions list to top, right, bottom, left of its content.\n\nProperty: position\n\nDefault: bottom"
-        },
-        {
-          "name": "position-align",
-          "description": "`position-align` {`string`} - Aligns list at start, or end fo target. Default is centered.\n\nProperty: positionAlign\n\nDefault: start"
-        },
-        {
-          "name": "offset",
-          "description": "`offset` {`number`} - spacing between top of list and menu button\n\nProperty: offset\n\nDefault: 0"
-        },
         {
           "name": "controls",
           "description": "`controls` {`string`} - The `id` of the `simple-toolbar` that the toolbar controls.\n\nProperty: controls"
@@ -262,11 +196,6 @@
           "description": "`toggled-tooltip` {`string`} - Label for the icon, if button is toggled.\n\nProperty: toggledTooltip"
         },
         {
-          "name": "disabled",
-          "description": "`disabled` {`boolean`} - Whether toggle is disabled\n\nProperty: disabled\n\nDefault: false",
-          "valueSet": "v"
-        },
-        {
           "name": "show-text-label",
           "description": "`show-text-label` {`boolean`} - Show text label even if an icon is named?\n\nProperty: showTextLabel\n\nDefault: false",
           "valueSet": "v"
@@ -279,18 +208,6 @@
         {
           "name": "shortcut-keys",
           "description": "`shortcut-keys` {`string`} - Optional space-separated list of shortcut keys\n\nProperty: shortcutKeys\n\nDefault: "
-        },
-        {
-          "name": "onclose",
-          "description": "`close` {`CustomEvent<Event>`} - Fires when menu is closed"
-        },
-        {
-          "name": "onopen",
-          "description": "`open` {`CustomEvent<Event>`} - Fires when menu is opened"
-        },
-        {
-          "name": "onitem-click",
-          "description": "`item-click` {`CustomEvent<Event>`} - "
         },
         {
           "name": "onregister-button",

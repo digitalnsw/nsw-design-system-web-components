@@ -1,0 +1,20 @@
+{
+  "name": "@digitalnsw/utils",
+  "version": "0.0.10",
+  "description": "Helper functions to clean up web component data handling.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalnsw/nsw-design-system-web-components.git"
+  },
+  "type": "module",
+  "main": "utils.js",
+  "module": "utils.js",
+  "author": {
+    "name": "btopro"
+  },
+  "license": "Apache-2.0",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}

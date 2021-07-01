@@ -20,7 +20,7 @@
     ]
   },
   "version": "0.0.10",
-  "description": "A singular toast / message for conistency",
+  "description": "A singular toast / message for consistency",
   "repository": {
     "type": "git",
     "url": "https://github.com/digitalnsw/nsw-design-system-web-components.git"
@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@digitalnsw/deduping-fix": "^0.0.10",
-    "@digitalnsw/storybook-utilities": "^3.0.6",
+    "@digitalnsw/storybook-utilities": "^0.0.10",
     "@open-wc/testing": "2.5.33",
     "@polymer/iron-component-page": "github:PolymerElements/iron-component-page",
     "@polymer/iron-demo-helpers": "3.1.0",
@@ -73,5 +73,6 @@
   "keywords": [
     "web-components",
     "html"
-  ]
+  ],
+  "gitHead": "2b878938d4833cc83cd3a85805dd07c3fec11398"
 }

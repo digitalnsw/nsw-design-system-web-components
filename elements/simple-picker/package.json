@@ -42,7 +42,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@digitalnsw/simple-icon": "^3.0.6",
+    "@digitalnsw/simple-icon": "^0.0.10",
     "lit": "2.0.0-rc.2"
   },
   "devDependencies": {
@@ -71,5 +71,5 @@
     "web-components",
     "html"
   ],
-  "gitHead": "e38751e6f76a812e00ae87ef826fafcdbfec4083"
+  "gitHead": "2b878938d4833cc83cd3a85805dd07c3fec11398"
 }

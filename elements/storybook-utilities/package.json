@@ -4,7 +4,7 @@
   "description": "A series of utilities for `story.js` files",
   "repository": {
     "type": "git",
-    "url": "git@github.com:digitalnsw/nsw-design-system-web-components.git"
+    "url": "https://github.com/digitalnsw/nsw-design-system-web-components.git"
   },
   "type": "module",
   "main": "storybook-utilities.js",
@@ -30,5 +30,5 @@
     "demo",
     "html"
   ],
-  "gitHead": "80925ce1e9d4a59bcaf214f90c784cb25b58a4e0"
+  "gitHead": "2b878938d4833cc83cd3a85805dd07c3fec11398"
 }
