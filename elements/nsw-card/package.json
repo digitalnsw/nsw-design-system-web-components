@@ -20,7 +20,7 @@
     "sharedProps": [],
     "sharedStyles": []
   },
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Cards group related content or tasks to make it easier for users to scan, read, and find information.",
   "repository": {
     "type": "git",

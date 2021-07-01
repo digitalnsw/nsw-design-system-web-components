@@ -20,7 +20,7 @@
     "sharedProps": [],
     "sharedStyles": []
   },
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Blockquotes give prominence to a section of text quoted from another source.    ",
   "repository": {
     "type": "git",

@@ -20,7 +20,7 @@
     "sharedProps": [],
     "sharedStyles": []
   },
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Buttons provide users with the ability to submit an action or follow a link to another location. ",
   "repository": {
     "type": "git",
