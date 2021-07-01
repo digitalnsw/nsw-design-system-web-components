@@ -10,7 +10,7 @@
 // Spacers / Gutters
 // ========================================================================
 
-$dds-global--containter-spacer:              dds-size-prem(16px) !default;
+$dds-global--container-spacer:              dds-size-prem(16px) !default;
 $dds-global--content-spacer:                 dds-size-prem(4px) !default;
 
 
@@ -53,7 +53,7 @@ $dds-global--grid-breakpoint--lg--max: $dds-global--grid-breakpoint--xl - 1 !def
 $dds-global--spacer--xxs:    dds-size-prem(4px) !default;
 $dds-global--spacer--xs:     dds-size-prem(8px) !default;
 $dds-global--spacer--sm:     dds-size-prem(12px) !default; // NEW. Not in PF
-$dds-global--spacer:         $dds-global--containter-spacer; // base
+$dds-global--spacer:         $dds-global--container-spacer; // base
 $dds-global--spacer--md:     dds-size-prem(24px) !default;
 $dds-global--spacer--lg:     dds-size-prem(32px) !default;
 $dds-global--spacer--xl:     dds-size-prem(48px) !default;

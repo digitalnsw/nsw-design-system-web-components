@@ -1,0 +1,9 @@
+{
+  "items": {
+    "name": "items",
+    "type": Object,
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_itemsChanged"
+  }
+}

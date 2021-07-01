@@ -1,0 +1,9 @@
+@import "../../dds-sass/dds-sass";
+
+:host {
+  display: block;
+}
+
+:host([hidden]) {
+  display: none;
+}

@@ -5,15 +5,15 @@
   "wcfactory": {
     "askSASS": true,
     "askProps": true,
-    "askHAX": true,
+    "askHAX": false,
     "monorepo": "nsw-design-system-wc",
     "orgNpm": "@digitalnsw",
     "orgGit": "nsw-design-system-wc",
     "gitRepo": "git@github.com:rod-higgins/nsw-design-system-wc.git",
     "sass": {
-      "name": "rh-sass",
-      "pkg": "@rhelements/rh-sass",
-      "path": "rh-sass/rh-sass"
+      "name": "dds-sass",
+      "pkg": "@digitalnsw/dds-sass",
+      "path": "dds-sass/dds-sass"
     }
   },
   "author": {

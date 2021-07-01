@@ -5,8 +5,8 @@ $dds-palette: (
 
 
 text:                               $dds-color--text,
-text--on-dark                     $-color--text--on-dark,
-text--on-saturated:                 $dds-color--text--osaturated,
+text--on-dark:                     $dds-color--text--on-dark,
+text--on-saturated:                 $dds-color--text--on-saturated,
 
 
 
@@ -15,43 +15,43 @@ text--on-saturated:                 $dds-color--text--osaturated,
 
 ui-link:                          $dds-color--ui-link,
 ui-link--visited:                 $dds-color--ui-link--visited,
-ui-link--hover:                     $rcolor--ui-link--hover,
-ui-link--focus:                     $dds-color--ui-lin-focus,
+ui-link--hover:                     $dds-color--ui-link--hover,
+ui-link--focus:                     $dds-color--ui-link--focus,
 
 ui-link--on-dark:                 $dds-color--ui-link--on-dark,
-ui-link--on-dark--visited:          $dds-colorui-link--on-dark--visited,
+ui-link--on-dark--visited:          $dds-color--ui-link--on-dark--visited,
 ui-link--on-dark--hover:          $dds-color--ui-link--on-dark--hover,
 ui-link--on-dark--fos:            $dds-color--ui-link--on-dark--focus,
 
 ui-link--osaturated:              $dds-color--ui-link--on-saturated,
-ui-lk--on-saturated--visited:     $dds-color--ui-link--on-saturated--vited,
-ui-link--on-saturated--hover:       $dds-color--ui-link--on-saturat--hover,
-ui-link--on-saturated--focus:       $dds-color--ui-link--on-sarated--focus,
+ui-lk--on-saturated--visited:     $dds-color--ui-link--on-saturated--visited,
+ui-link--on-saturated--hover:       $dds-color--ui-link--on-saturated--hover,
+ui-link--on-saturated--focus:       $dds-color--ui-link--on-saturated--focus,
 
 
 
 
 
 
-ui-base:                            $dds-colorui-base,
-ui-base--hover:                     $dds-color--ui-base--hov,
+ui-base:                            $dds-color--ui-base,
+ui-base--hover:                     $dds-color--ui-base--hover,
 ui-base--text:                      $dds-color--ui-base--text,
 ui-base--te--hover:               $dds-color--ui-base--text--hover,
 
 ui-complement:                    $dds-color--ui-complement,
-ui-complement--hover:              dds-color--ui-complement--hover,
-ui-complement--text:                $dds-colo-ui-complement--text,
-ui-complement--text--hover:         $dds-cor--ui-complement--text--hover,
+ui-complement--hover:              $dds-color--ui-complement--hover,
+ui-complement--text:                $dds-color--ui-complement--text,
+ui-complement--text--hover:         $dds-color--ui-complement--text--hover,
 
-ui-accent:                          $dds-colorui-accent,
-ui-accent--hover:                   $dds-col--ui-accent--hover,
-ui-accent--text:                    $dds-cor--ui-accent--text,
-ui-accent--text--hover:             $rholor--ui-accent--text--hover,
+ui-accent:                          $dds-color--ui-accent,
+ui-accent--hover:                   $dds-color--ui-accent--hover,
+ui-accent--text:                    $dds-color--ui-accent--text,
+ui-accent--text--hover:             $dds-color--ui-accent--text--hover,
 
-ui-disabled:                        $-color--ui-disabled,
-ui-disabled--hover:                 $rholor--ui-disabled--hover,
-ui-disabled--text:                  $dds-cor--ui-disabled--text,
-ui-disabled--text--hover:           $dds-col--ui-disabled--text--hover,
+ui-disabled:                        $dds-color--ui-disabled,
+ui-disabled--hover:                 $dds-color--ui-disabled--hover,
+ui-disabled--text:                  $dds-color--ui-disabled--text,
+ui-disabled--text--hover:           $dds-color--ui-disabled--text--hover,
 
 
 
@@ -60,65 +60,65 @@ ui-disabled--text--hover:           $dds-col--ui-disabled--text--hover,
 
 
 surface--lightest:                $dds-color--surface--lightest,
-surface--lightest--text           $dds-color--surface--lightest--text,
-surface--lightes-link:            $dds-color--surface--lightest--link,
-surface-ightest--link--visited:   $dds-color--surface--lightest--link--visited,
-urface--lightest--link--hover:     $dds-color--surface--lightt--link--hover,
-surface--lightest--link--focus:     $dds-color--suace--lightest--link--focus,
+surface--lightest--text:           $dds-color--surface--lightest--text,
+surface--lightest--link:            $dds-color--surface--lightest--link,
+surface--lightest--link--visited:   $dds-color--surface--lightest--link--visited,
+surface--lightest--link--hover:     $dds-color--surface--lightest--link--hover,
+surface--lightest--link--focus:     $dds-color--surface--lightest--link--focus,
 
 
 surface--lighter:                 $dds-color--surface--lighter,
-surface--lighter--text:             $dds-cor--surface--lighter--text,
-surface--lighter--link:             $dds-color--suace--lighter--link,
-surface--lighter--link--vited:    $dds-color--surface--lighter--link--visited,
-surface--lighter--link--her:      $dds-color--rface--lighter--link--hover,
-surface--lighter--link--focus:     dds-color--surface--lighter--link--focus,
+surface--lighter--text:             $dds-color--surface--lighter--text,
+surface--lighter--link:             $dds-color--surface--lighter--link,
+surface--lighter--link--visited:    $dds-color--surface--lighter--link--visited,
+surface--lighter--link--hover:      $dds-color--surface--lighter--link--hover,
+surface--lighter--link--focus:     $dds-color--surface--lighter--link--focus,
 
 
 surface--base:                    $dds-color--surface--base,
-surface--base--text:               dds-color--surface--base--text,
-surface--base--link:                $dds-color--sface--base--link,
-surface--base--link--visited:       $dds-color--surface--bas-link--visited,
-surface--base--link--hover:         $dds-color--surface--base--nk--hover,
-surfac-base--link--focus:         $dds-color--surface--base--link--focus
+surface--base--text:               $dds-color--surface--base--text,
+surface--base--link:                $dds-color--surface--base--link,
+surface--base--link--visited:       $dds-color--surface--base--link--visited,
+surface--base--link--hover:         $dds-color--surface--base--link--hover,
+surfac-base--link--focus:         $dds-color--surface--base--link--focus,
 
 surface--darker:                    $dds-color--surface--darker,
-urface--darker--text:              $dds-color--surface--darker--text,
-rface--darker--link:              $dds-color--surface--darker--link,
-surface--dker--link--visited:     $dds-color--surface--darker--link--visited,
-surface--rker--link--hover:       $dds-color--surface--darker--link--hover,
-surface--daer--link--focus:     $dds-color--surface--darker--link--focus,
+surface--darker--text:              $dds-color--surface--darker--text,
+surface--darker--link:              $dds-color--surface--darker--link,
+surface--darker--link--visited:     $dds-color--surface--darker--link--visited,
+surface--darker--link--hover:       $dds-color--surface--darker--link--hover,
+surface--darker--link--focus:     $dds-color--surface--darker--link--focus,
 
 
-surface--dkest:                   $dds-color--surface--darkest,
-surface--darkt--text:             $dds-color--surface--darkest--text,
-surface--dkest--link:             $dds-color--surface--darkest--link,
-surface--darkestlink--visited:    $dds-color--surface--darkest--link--visited,
-surface--daest--link--hover:      $dds-color--surface--darkest--link--hover,
-surface--rkest--link--focus     $dds-color--surface--darkest--link--focus,
+surface--darkest:                   $dds-color--surface--darkest,
+surface--darkest--text:             $dds-color--surface--darkest--text,
+surface--darkest--link:             $dds-color--surface--darkest--link,
+surface--darkest--link--visited:    $dds-color--surface--darkest--link--visited,
+surface--darkest--link--hover:      $dds-color--surface--darkest--link--hover,
+surface--darkest--link--focus:     $dds-color--surface--darkest--link--focus,
 
 
-surface--colement:                $dds-color--surface--complement,
-surface--compment--text:          $dds-color--surface--complement--text,
-surface--mplement--link:          $dds-color--surface--complement--link,
-surface--complent--link--visited: $dds-color--surface--complement--link--visited,
-surface-omplement--link--hover:   $dds-color--surface--complement--link--hover,
-surfa--complement--link-ocus:   $dds-color--surface--complement--link--focus,
+surface--complement:                $dds-color--surface--complement,
+surface--complement--text:          $dds-color--surface--complement--text,
+surface--complement--link:          $dds-color--surface--complement--link,
+surface--complement--link--visited: $dds-color--surface--complement--link--visited,
+surface--complement--link--hover:   $dds-color--surface--complement--link--hover,
+surface--complement--link--focus:   $dds-color--surface--complement--link--focus,
 
 
 
-surfa--accent:                    $dds-color--surface--accent,
-surface--acct--text:              $dds-color--surface--accent--text,
-surface--acce--link:              $dds-color--surface--accent--link,
-surface--accent--link--sited:     $dds-color--surface--accent--link--visited,
-surface--accent--link-over:       $dds-color--surface--accent--link--hover,
-surface--accent--link--fus:       $dds-color--sface--accent--link--focus,
+surface--accent:                    $dds-color--surface--accent,
+surface--accent--text:              $dds-color--surface--accent--text,
+surface--accent--link:              $dds-color--surface--accent--link,
+surface--accent--link--visited:     $dds-color--surface--accent--link--visited,
+surface--accent--link--hover:       $dds-color--surface--accent--link--hover,
+surface--accent--link--focus:       $dds-color--surface--accent--link--focus,
 
 
 
 surface--border:                  $dds-color--surface--border,
-surface--border--lightest:          $dds-colo-surface--border--lightest,
-surface--border--darkest:           $dds-colo-surface--border--darkest,
+surface--border--lightest:          $dds-color--surface--border--lightest,
+surface--border--darkest:           $dds-color--surface--border--darkest,
 
 
 
@@ -126,28 +126,29 @@ surface--border--darkest:           $dds-colo-surface--border--darkest,
 
 
 
-feedback--critical:                 $rholor--feedback--critical,
-feedback--critical--lightest:       $dds-color--feedba--critical--lightest,
-feedback--critical--darkest:        $dds-color--feedback--crical--darkest,
+feedback--critical:                 $dds-color--feedback--critical,
+feedback--critical--lightest:       $dds-color--feedback--critical--lightest,
+feedback--critical--darkest:        $dds-color--feedback--critical--darkest,
 
-edback--important:                $dds-color--feedback--important  feedback--important--lightest:      $dds-color--feedback--important--ghtest,
-feedback--important--darkest:       $dds-color--feedback--imptant--darkest,
+feedback--important:                $dds-color--feedback--important,
+feedback--important--lightest:      $dds-color--feedback--important--lightest,
+feedback--important--darkest:       $dds-color--feedback--important--darkest,
 
-feedback--moderate:                 $dds-color--feedback--modete,
-feedback--moderate--lightest:       $dds-color--feedback--moderate--lighst,
-feedback--moderate--darkest:        $dds-color--feedback--moderate--darkes
+feedback--moderate:                 $dds-color--feedback--moderate,
+feedback--moderate--lightest:       $dds-color--feedback--moderate--lightest,
+feedback--moderate--darkest:        $dds-color--feedback--moderate--darkest,
 
 feedback--success:                $dds-color--feedback--success,
 feedback--success--lighte:        $dds-color--feedback--success--lightest,
 feedback--success--darkt:         $dds-color--feedback--success--darkest,
 
 feedback--info:                   $dds-color--feedback--info,
-feedback--info--lightest:           $-color--feedback--info--lightest,
+feedback--info--lightest:           $dds-color--feedback--info--lightest,
 feedback--info--daest:            $dds-color--feedback--info--darkest,
 
-feedback--default:                $dds-color--feedback--deult,
-feedback--default--lightest:        $dds-color--feedback--deflt--lightest,
-feedback--default--darkest:         $dds-color--feedback--defat--darkest,
+feedback--default:                $dds-color--feedback--default,
+feedback--default--lightest:        $dds-color--feedback--default--lightest,
+feedback--default--darkest:         $dds-color--feedback--default--darkest,
 
 );
 

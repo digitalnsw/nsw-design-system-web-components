@@ -84,7 +84,7 @@
 }
 // scss-lint:disable ImportantRule
 @mixin dds-no-print-background {
-  @include print-media {
+  @include dds-print-media {
     background-color: white !important;
     background-image: none !important;
     box-shadow: none !important;
@@ -92,7 +92,7 @@
 }
 // scss-lint:enable ImportantRule
 
-@mixin dds-pipe( $position: right, $padding: 0, $margin: 0, $color: $border-color) {
+@mixin dds-pipe( $position: right, $padding: 0, $margin: 0, $color: $dds-global--border--BorderColor) {
   border: 1px solid transparent;
   border-#{$position}-color: $color;
   @if $position == right {

@@ -1,4 +1,4 @@
-@mixin dds-accessibility-focus( $color: $link-color ) {
+@mixin dds-accessibility-focus( $color: $dds-global--link-color ) {
   outline-offset: 1px;
   outline-style: dotted;
   outline-width: 1px;

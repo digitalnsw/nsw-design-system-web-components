@@ -1,0 +1,56 @@
+{
+  "name": "@digitalnsw/nsw-linklist",
+  "wcfactory": {
+    "className": "NswLinklist",
+    "customElementClass": "LitElement",
+    "elementName": "nsw-linklist",
+    "generator-wcfactory-version": "0.12.4",
+    "useHAX": false,
+    "useSass": true,
+    "files": {
+      "css": "src/nsw-linklist.css",
+      "scss": "src/nsw-linklist.scss",
+      "html": "src/nsw-linklist.html",
+      "js": "src/nsw-linklist.js",
+      "properties": "src/nsw-linklist-properties.json",
+      "hax": "src/nsw-linklist-hax.json"
+    },
+    "iconset": {},
+    "sharedHaxProps": [],
+    "sharedProps": [],
+    "sharedStyles": []
+  },
+  "version": "0.0.5",
+  "description": "Link lists are a structured way of displaying links to content with a common theme.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rod-higgins/nsw-design-system-wc.git"
+  },
+  "main": "nsw-linklist.js",
+  "module": "nsw-linklist.js",
+  "umd": "nsw-linklist.umd.js",
+  "scripts": {
+    "test": "web-test-runner \"test/**/*.test.js\" --node-resolve",
+    "test:watch": "web-test-runner \"test/**/*.test.js\" --node-resolve --watch",
+    "test:browsers": "web-test-runner \"test/**/*.test.js\" --node-resolve --playwright --browsers chromium firefox webkit",
+    "start":"yarn run dev","build":"gulp --gulpfile=gulpfile.cjs && node --experimental-json-modules ../../node_modules/.bin/rollup --config && prettier --ignore-path ../../.prettierignore --write '**/*.{js,json}' && wca analyze \"**/*.js\" --outFile custom-elements.json","dev":"concurrently --kill-others \"yarn run watch\" \"yarn run serve\"","watch":"gulp dev --gulpfile=gulpfile.cjs","serve":"es-dev-server -c ../../es-dev-server.config.js","lighthouse":"gulp lighthouse --gulpfile=gulpfile.cjs"
+  },
+  "author": {
+    "name": "Rod Higgins"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lit-element":"2.4.0","@digitalnsw/dds-sass":"*"
+  },
+  "devDependencies": {
+    "@wcfactory/rollup-umd-build":"^0.12.1","@lrnwebcomponents/deduping-fix":"2.7.7","@polymer/iron-component-page":"github:PolymerElements/iron-component-page","@polymer/iron-demo-helpers":"3.1.0","@webcomponents/webcomponentsjs":"2.5.0","concurrently":"5.3.0","gulp-babel":"8.0.0","lodash":"4.17.21","polymer-build":"3.1.4","polymer-cli":"1.9.11","wct-browser-legacy":"1.0.2","web-animations-js":"2.3.2","@open-wc/testing":"2.5.32","@web/test-runner":"0.12.19","@web/test-runner-commands":"0.4.2","@web/test-runner-playwright":"0.8.4","@web/test-runner-puppeteer":"0.9.3"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "web-components",
+    "html"
+  ]
+}

@@ -129,7 +129,7 @@
 }
 
 
-/// RH Var
+/// DDS Var
 ///
 /// Returns CSS Var stack with exposed theme Var and respective SCSS fallback
 ///
@@ -155,7 +155,7 @@
   @return var( --#{$repo}-theme--#{$category}#{$cssvar}, #{map-get($map, $cssvar)});
 }
 
-/// RH Color
+/// DDS Color
 ///
 /// Returns CSS Var stack with exposed theme Var and respective SCSS fallback
 ///
