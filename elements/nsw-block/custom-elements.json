@@ -1,0 +1,85 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "nsw-block",
+      "path": "./nsw-block.js",
+      "description": "`nsw-block`\n`Content blocks allow users to select from multiple actions related to a topic or task.`",
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string",
+          "default": "\"text\""
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "copy",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "link",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "list",
+          "type": "object",
+          "default": "\"\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "type",
+          "attribute": "type",
+          "type": "string",
+          "default": "\"text\""
+        },
+        {
+          "name": "title",
+          "attribute": "title",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "copy",
+          "attribute": "copy",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "link",
+          "attribute": "link",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "label",
+          "attribute": "label",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "list",
+          "attribute": "list",
+          "type": "object",
+          "default": "\"\""
+        }
+      ]
+    },
+    {
+      "name": "nsw-block",
+      "path": "./src/nsw-block.js",
+      "description": "`nsw-block`\n`Content blocks allow users to select from multiple actions related to a topic or task.`"
+    }
+  ]
+}

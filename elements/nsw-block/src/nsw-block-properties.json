@@ -1,0 +1,44 @@
+{
+  "type": {
+    "name": "type",
+    "type": String,
+    "value": "text",
+    "reflectToAttribute": true,
+    "observer": "_typeChanged"
+  },
+  "title": {
+    "name": "title",
+    "type": "String",
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_titleChanged"
+  },
+  "copy": {
+    "name": "copy",
+    "type": "String",
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_copyChanged"
+  },
+  "link": {
+    "name": "link",
+    "type": "String",
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_linkChanged"
+  },
+  "label": {
+    "name": "label",
+    "type": "String",
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_labelChanged"
+  },
+  "list": {
+    "name": "list",
+    "type": Object,
+    "value": "",
+    "reflectToAttribute": true,
+    "observer": "_listChanged"
+  }
+}
