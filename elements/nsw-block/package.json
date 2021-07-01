@@ -20,7 +20,7 @@
     "sharedProps": [],
     "sharedStyles": []
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Content blocks allow users to select from multiple actions related to a topic or task.",
   "repository": {
     "type": "git",

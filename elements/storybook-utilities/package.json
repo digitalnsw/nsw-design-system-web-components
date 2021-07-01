@@ -1,6 +1,6 @@
 {
   "name": "@digitalnsw/storybook-utilities",
-  "version": "3.0.6",
+  "version": "0.0.4",
   "description": "A series of utilities for `story.js` files",
   "repository": {
     "type": "git",
