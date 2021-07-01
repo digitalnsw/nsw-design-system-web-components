@@ -20,7 +20,7 @@
     "sharedProps": [],
     "sharedStyles": []
   },
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Buttons provide users with the ability to submit an action or follow a link to another location. ",
   "repository": {
     "type": "git",
@@ -45,7 +45,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@digitalnsw/dds-sass": "^0.0.7",
+    "@digitalnsw/dds-sass": "^0.0.8",
     "lit-element": "2.4.0"
   },
   "devDependencies": {
