@@ -24,7 +24,7 @@
   "description": "Cards group related content or tasks to make it easier for users to scan, read, and find information.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rod-higgins/nsw-design-system-wc.git"
+    "url": "git@github.com:digitalnsw/nsw-design-system-web-components.git"
   },
   "main": "nsw-card.js",
   "module": "nsw-card.js",

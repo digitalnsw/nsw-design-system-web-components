@@ -24,7 +24,7 @@
   "description": "Link lists are a structured way of displaying links to content with a common theme.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rod-higgins/nsw-design-system-wc.git"
+    "url": "git@github.com:digitalnsw/nsw-design-system-web-components.git"
   },
   "main": "nsw-linklist.js",
   "module": "nsw-linklist.js",

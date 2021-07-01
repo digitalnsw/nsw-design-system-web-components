@@ -9,7 +9,7 @@
     "monorepo": "nsw-design-system-wc",
     "orgNpm": "@digitalnsw",
     "orgGit": "nsw-design-system-wc",
-    "gitRepo": "git@github.com:rod-higgins/nsw-design-system-wc.git",
+    "gitRepo": "git@github.com:digitalnsw/nsw-design-system-web-components.git",
     "sass": {
       "name": "dds-sass",
       "pkg": "@digitalnsw/dds-sass",
@@ -21,7 +21,7 @@
     "url": ""
   },
   "license": "Apache-2.0",
-  "repository": "git@github.com:rod-higgins/nsw-design-system-wc.git",
+  "repository": "git@github.com:digitalnsw/nsw-design-system-web-components.git",
   "scripts": {
     "start": "bash scripts/preinstall.sh && yarn run storybook",
     "lerna": "lerna",

@@ -4,7 +4,7 @@
   "description": "A series of utilities for `story.js` files",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rod-higgins/nsw-design-system-wc.git"
+    "url": "git@github.com:digitalnsw/nsw-design-system-web-components.git"
   },
   "type": "module",
   "main": "storybook-utilities.js",

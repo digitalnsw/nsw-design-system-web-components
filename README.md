@@ -4,8 +4,11 @@
 [![Lit](https://img.shields.io/badge/-Lit-324fff?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyBmaWxsPSIjZmZmIiB2aWV3Qm94PSIwIDAgMTYwIDIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMTYwIDgwdjgwbC00MC00MHptLTQwIDQwdjgwbDQwLTQwem0wLTgwdjgwbC00MC00MHptLTQwIDQwdjgwbDQwLTQwem0tNDAtNDB2ODBsNDAtNDB6bTQwLTQwdjgwbC00MC00MHptLTQwIDEyMHY4MGwtNDAtNDB6bS00MC00MHY4MGw0MC00MHoiLz48L3N2Zz4%3D)](https://lit.dev/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-f8bc45.svg)](https://github.com/prettier/prettier)
 [![Dependency Status](https://img.shields.io/david/nsw-design-system-wc/nsw-design-system-wc.svg?style=flat)](https://david-dm.org/nsw-design-system-wc/nsw-design-system-wc)
+
 Welcome to the nsw-design-system-wc project!
+
 NSW Design System Web Components
+
 ## Quick-start
 
 *Notice: You will need to use [Node](https://nodejs.org/en/) version 6.0 or higher. Verify that you have yarn enabled — if not [install yarn globally](https://yarnpkg.com/lang/en/docs/install/). These web components are written in [ES6](http://es6-features.org/) and build routines compile to es5 to encompass more browsers.*
@@ -13,7 +16,7 @@ NSW Design System Web Components
 ### Install
 
 ```bash
-$ git clone git@github.com:rod-higgins/nsw-design-system-wc.git
+$ git clone git@github.com:digitalnsw/nsw-design-system-web-components.git
 $ cd nsw-design-system-wc
 $ yarn install
 $ yarn start

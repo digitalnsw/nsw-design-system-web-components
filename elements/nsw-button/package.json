@@ -24,7 +24,7 @@
   "description": "Buttons provide users with the ability to submit an action or follow a link to another location. ",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rod-higgins/nsw-design-system-wc.git"
+    "url": "git@github.com:digitalnsw/nsw-design-system-web-components.git"
   },
   "main": "nsw-button.js",
   "module": "nsw-button.js",

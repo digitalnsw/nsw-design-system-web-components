@@ -24,7 +24,7 @@
   "description": "Callouts are a snippet of information that draws attention to important content. ",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rod-higgins/nsw-design-system-wc.git"
+    "url": "git@github.com:digitalnsw/nsw-design-system-web-components.git"
   },
   "main": "nsw-callout.js",
   "module": "nsw-callout.js",

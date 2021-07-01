@@ -24,7 +24,7 @@
   "description": "Content blocks allow users to select from multiple actions related to a topic or task.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rod-higgins/nsw-design-system-wc.git"
+    "url": "git@github.com:digitalnsw/nsw-design-system-web-components.git"
   },
   "main": "nsw-block.js",
   "module": "nsw-block.js",

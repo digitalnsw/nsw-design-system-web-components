@@ -24,7 +24,7 @@
   "description": "Blockquotes give prominence to a section of text quoted from another source.    ",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rod-higgins/nsw-design-system-wc.git"
+    "url": "git@github.com:digitalnsw/nsw-design-system-web-components.git"
   },
   "main": "nsw-blockquote.js",
   "module": "nsw-blockquote.js",

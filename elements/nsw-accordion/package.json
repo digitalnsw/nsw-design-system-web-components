@@ -24,7 +24,7 @@
   "description": "An accordion is a series of expandable vertical panels, designed to save space on a page by hiding content and revealing it as required.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rod-higgins/nsw-design-system-wc.git"
+    "url": "git@github.com:digitalnsw/nsw-design-system-web-components.git"
   },
   "main": "nsw-accordion.js",
   "module": "nsw-accordion.js",
