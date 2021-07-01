@@ -20,7 +20,7 @@
     "sharedProps": [],
     "sharedStyles": []
   },
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Link lists are a structured way of displaying links to content with a common theme.",
   "repository": {
     "type": "git",
@@ -45,7 +45,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@digitalnsw/dds-sass": "^0.0.8",
+    "@digitalnsw/dds-sass": "^0.0.9",
     "lit-element": "2.4.0"
   },
   "devDependencies": {
