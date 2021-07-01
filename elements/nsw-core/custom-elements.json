@@ -1,0 +1,15 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "nsw-core",
+      "path": "./nsw-core.js",
+      "description": "`nsw-core`\n`Core styling`"
+    },
+    {
+      "name": "nsw-core",
+      "path": "./src/nsw-core.js",
+      "description": "`nsw-core`\n`Core styling`"
+    }
+  ]
+}
