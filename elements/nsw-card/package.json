@@ -20,7 +20,7 @@
     "sharedProps": [],
     "sharedStyles": []
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Cards group related content or tasks to make it easier for users to scan, read, and find information.",
   "repository": {
     "type": "git",
@@ -45,7 +45,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@digitalnsw/dds-sass": "^0.0.6",
+    "@digitalnsw/dds-sass": "^0.0.7",
     "lit-element": "2.4.0"
   },
   "devDependencies": {
