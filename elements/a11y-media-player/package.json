@@ -1,0 +1,86 @@
+{
+  "name": "@digitalnsw/a11y-media-player",
+  "wcfactory": {
+    "className": "A11yMediaPlayer",
+    "customElementClass": "LitElement",
+    "elementName": "a11y-media-player",
+    "generator-wcfactory-version": "0.6.2",
+    "useHAX": false,
+    "useSass": false,
+    "files": {
+      "css": "src/a11y-media-player.css",
+      "scss": "src/a11y-media-player.scss",
+      "html": "src/a11y-media-player.html",
+      "js": "src/a11y-media-player.js",
+      "properties": "src/a11y-media-player-properties.json",
+      "hax": "src/a11y-media-player-hax.json"
+    },
+    "sharedStyles": [
+      "...super.styles"
+    ]
+  },
+  "version": "3.0.6",
+  "description": "A feature rich, highly accessible video player",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalnsw/nsw-design-system-web-components.git"
+  },
+  "type": "module",
+  "main": "a11y-media-player.js",
+  "module": "a11y-media-player.js",
+  "umd": "a11y-media-player.umd.js",
+  "scripts": {
+    "start": "yarn run dev",
+    "build": "gulp --gulpfile=gulpfile.cjs && node --experimental-json-modules ../../node_modules/.bin/rollup --config && prettier --ignore-path ../../.prettierignore --write \"**/*.{js,json}\" && wca analyze \"**/*.js\" --format vscode --outFile vscode-html-custom-data.json",
+    "dev": "concurrently --kill-others 'yarn run watch' 'yarn run serve'",
+    "watch": "gulp dev --gulpfile=gulpfile.cjs",
+    "serve": "es-dev-server -c ../../es-dev-server.config.js",
+    "lighthouse": "gulp lighthouse --gulpfile=gulpfile.cjs",
+    "test": "web-test-runner \"test/**/*.test.js\" --node-resolve",
+    "test:watch": "web-test-runner \"test/**/*.test.js\" --node-resolve --watch",
+    "test:browsers": "web-test-runner \"test/**/*.test.js\" --node-resolve --playwright --browsers chromium firefox webkit"
+  },
+  "author": {
+    "name": "nikkimk"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@digitalnsw/absolute-position-behavior": "^3.0.6",
+    "@digitalnsw/anchor-behaviors": "^3.0.5",
+    "@digitalnsw/fullscreen-behaviors": "^3.0.6",
+    "@digitalnsw/responsive-utility": "^3.0.6",
+    "@digitalnsw/simple-colors": "^3.0.6",
+    "@digitalnsw/simple-fields": "^3.0.6",
+    "@digitalnsw/simple-icon": "^3.0.6",
+    "@digitalnsw/simple-range-input": "^3.0.6",
+    "@digitalnsw/simple-search": "^3.0.6",
+    "@digitalnsw/simple-toast": "^3.0.6",
+    "@digitalnsw/simple-tooltip": "^3.0.5",
+    "@digitalnsw/utils": "^3.0.0",
+    "lit": "2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@digitalnsw/storybook-utilities": "^3.0.6",
+    "@polymer/iron-component-page": "github:PolymerElements/iron-component-page",
+    "@polymer/iron-demo-helpers": "3.1.0",
+    "@webcomponents/webcomponentsjs": "2.5.0",
+    "concurrently": "5.3.0",
+    "gulp-babel": "8.0.0",
+    "lodash": "4.17.21",
+    "polymer-cli": "1.9.11",
+    "wct-browser-legacy": "1.0.2",
+    "@open-wc/testing": "2.5.33",
+    "@web/test-runner": "0.13.5",
+    "@web/test-runner-commands": "0.4.5",
+    "@web/test-runner-playwright": "0.8.6",
+    "@web/test-runner-puppeteer": "0.10.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "web-components",
+    "html"
+  ]
+}

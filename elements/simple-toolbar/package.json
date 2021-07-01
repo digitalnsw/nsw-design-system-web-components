@@ -1,0 +1,78 @@
+{
+  "name": "@digitalnsw/simple-toolbar",
+  "wcfactory": {
+    "className": "SimpleToolbar",
+    "customElementClass": "LitElement",
+    "elementName": "simple-toolbar",
+    "generator-wcfactory-version": "0.8.7",
+    "useHAX": false,
+    "useSass": false,
+    "files": {
+      "css": "src/simple-toolbar.css",
+      "scss": "src/simple-toolbar.scss",
+      "html": "src/simple-toolbar.html",
+      "js": "src/simple-toolbar.js",
+      "properties": "src/simple-toolbar-properties.json",
+      "hax": "src/simple-toolbar-hax.json"
+    },
+    "sharedHaxProps": [],
+    "sharedProps": [],
+    "sharedStyles": []
+  },
+  "version": "3.0.6",
+  "description": "a customizable toolbar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalnsw/nsw-design-system-web-components.git"
+  },
+  "main": "simple-toolbar.js",
+  "module": "simple-toolbar.js",
+  "umd": "simple-toolbar.umd.js",
+  "scripts": {
+    "start": "yarn run dev",
+    "build": "gulp --gulpfile=gulpfile.cjs && node --experimental-json-modules ../../node_modules/.bin/rollup --config && prettier --ignore-path ../../.prettierignore --write \"**/*.{js,json}\" && wca analyze \"**/*.js\" --format vscode --outFile vscode-html-custom-data.json",
+    "dev": "concurrently --kill-others \"yarn run watch\" \"yarn run serve\"",
+    "watch": "gulp dev --gulpfile=gulpfile.cjs",
+    "serve": "es-dev-server -c ../../es-dev-server.config.js",
+    "lighthouse": "gulp lighthouse --gulpfile=gulpfile.cjs",
+    "test": "web-test-runner \"test/**/*.test.js\" --node-resolve",
+    "test:watch": "web-test-runner \"test/**/*.test.js\" --node-resolve --watch",
+    "test:browsers": "web-test-runner \"test/**/*.test.js\" --node-resolve --playwright --browsers chromium firefox webkit"
+  },
+  "author": {
+    "name": "nikkimk"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@digitalnsw/simple-icon": "^3.0.6",
+    "@digitalnsw/simple-tooltip": "^3.0.6",
+    "lit": "2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "web-animations-js": "2.3.2",
+    "@digitalnsw/deduping-fix": "2.0.5",
+    "@polymer/iron-demo-helpers": "3.1.0",
+    "@polymer/iron-component-page": "github:PolymerElements/iron-component-page",
+    "@webcomponents/webcomponentsjs": "2.5.0",
+    "concurrently": "4.1.0",
+    "gulp-babel": "8.0.0",
+    "gulp-sourcemaps": "2.6.5",
+    "lodash": "4.17.11",
+    "polymer-cli": "1.9.7",
+    "polymer-build": "3.1.2",
+    "wct-browser-legacy": "1.0.2",
+    "@open-wc/testing": "2.5.33",
+    "@web/test-runner": "0.13.5",
+    "@web/test-runner-commands": "0.4.5",
+    "@web/test-runner-playwright": "0.8.6",
+    "@web/test-runner-puppeteer": "0.10.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "web-components",
+    "html"
+  ]
+}

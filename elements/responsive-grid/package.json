@@ -1,0 +1,76 @@
+{
+  "name": "@digitalnsw/responsive-grid",
+  "wcfactory": {
+    "className": "ResponsiveGrid",
+    "customElementClass": "PolymerElement",
+    "elementName": "responsive-grid",
+    "generator-wcfactory-version": "0.3.2",
+    "useHAX": true,
+    "useSass": false,
+    "files": {
+      "css": "src/responsive-grid.css",
+      "scss": "src/responsive-grid.scss",
+      "html": "src/responsive-grid.html",
+      "js": "src/responsive-grid.js",
+      "properties": "src/responsive-grid-properties.json",
+      "hax": "src/responsive-grid-hax.json"
+    },
+    "sharedStyles": []
+  },
+  "version": "3.0.6",
+  "description": "Automated conversion of responsive-grid/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalnsw/nsw-design-system-web-components.git"
+  },
+  "type": "module",
+  "main": "responsive-grid.js",
+  "module": "responsive-grid.js",
+  "umd": "responsive-grid.umd.js",
+  "scripts": {
+    "start": "yarn run dev",
+    "build": "gulp --gulpfile=gulpfile.cjs && node --experimental-json-modules ../../node_modules/.bin/rollup --config && prettier --ignore-path ../../.prettierignore --write \"**/*.{js,json}\" && wca analyze \"**/*.js\" --format vscode --outFile vscode-html-custom-data.json",
+    "dev": "concurrently --kill-others \"yarn run watch\" \"yarn run serve\"",
+    "watch": "gulp dev --gulpfile=gulpfile.cjs",
+    "serve": "es-dev-server -c ../../es-dev-server.config.js",
+    "lighthouse": "gulp lighthouse --gulpfile=gulpfile.cjs",
+    "test": "web-test-runner \"test/**/*.test.js\" --node-resolve",
+    "test:watch": "web-test-runner \"test/**/*.test.js\" --node-resolve --watch",
+    "test:browsers": "web-test-runner \"test/**/*.test.js\" --node-resolve --playwright --browsers chromium firefox webkit"
+  },
+  "author": {
+    "name": "btopro"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@digitalnsw/responsive-utility": "^3.0.6",
+    "lit": "2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@digitalnsw/deduping-fix": "^3.0.0",
+    "@digitalnsw/storybook-utilities": "^3.0.6",
+    "@polymer/iron-component-page": "github:PolymerElements/iron-component-page",
+    "@polymer/iron-demo-helpers": "3.1.0",
+    "@webcomponents/webcomponentsjs": "2.5.0",
+    "concurrently": "5.3.0",
+    "gulp-babel": "8.0.0",
+    "lodash": "4.17.19",
+    "polymer-cli": "1.9.11",
+    "wct-browser-legacy": "1.0.2",
+    "@open-wc/testing": "2.5.33",
+    "@web/test-runner": "0.13.5",
+    "@web/test-runner-commands": "0.4.5",
+    "@web/test-runner-playwright": "0.8.6",
+    "@web/test-runner-puppeteer": "0.10.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "web-components",
+    "html",
+    "haxtheweb"
+  ],
+  "gitHead": "e38751e6f76a812e00ae87ef826fafcdbfec4083"
+}
