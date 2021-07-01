@@ -1,6 +1,6 @@
 import { html } from "lit-element/lit-element.js";
 import { withKnobs, withWebComponentsKnobs } from "@open-wc/demoing-storybook";
-import { StorybookUtilities } from "@lrnwebcomponents/storybook-utilities/storybook-utilities.js";
+import { StorybookUtilities } from "@digitalnsw/storybook-utilities/storybook-utilities.js";
 import { SimplePicker } from "@digitalnsw/simple-picker/simple-picker.js";
 import { SimpleIconPicker } from "./simple-icon-picker.js";
 

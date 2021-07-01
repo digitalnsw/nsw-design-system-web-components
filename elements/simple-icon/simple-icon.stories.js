@@ -13,7 +13,7 @@ import {
   boolean,
   text,
 } from "@open-wc/demoing-storybook";
-import { StorybookUtilities } from "@lrnwebcomponents/storybook-utilities/storybook-utilities.js";
+import { StorybookUtilities } from "@digitalnsw/storybook-utilities/storybook-utilities.js";
 
 export default {
   title: "Media|Icons",

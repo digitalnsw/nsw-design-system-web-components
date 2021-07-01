@@ -301,6 +301,7 @@ export const SimpleIconsetManifest = [
       "wrap-text",
     ],
   },
+  null,
   {
     name: "hardware",
     icons: [

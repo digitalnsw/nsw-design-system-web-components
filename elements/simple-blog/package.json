@@ -45,14 +45,14 @@
   "dependencies": {
     "@digitalnsw/simple-colors": "^0.0.11",
     "@digitalnsw/simple-datetime": "^0.0.11",
-    "@digitalnsw/simple-icon": "^0.0.10",
+    "@digitalnsw/simple-icon": "^0.0.11",
     "@lrnwebcomponents/hax-iconset": "^3.0.6",
     "@lrnwebcomponents/haxcms-elements": "^3.0.6",
     "@lrnwebcomponents/schema-behaviors": "^3.0.6",
     "@polymer/iron-list": "^3.0.2",
     "@polymer/iron-pages": "^3.0.0",
     "@polymer/polymer": "^3.3.1",
-    "time-elements": "^3.0.0"
+    "@github/time-elements": "^3.0.0"
   },
   "devDependencies": {
     "@digitalnsw/deduping-fix": "^0.0.11",
@@ -79,5 +79,5 @@
     "web-components",
     "html"
   ],
-  "gitHead": "e38751e6f76a812e00ae87ef826fafcdbfec4083"
+  "gitHead": "d5162e508071203617d735f6d63e6bcdb045182a"
 }

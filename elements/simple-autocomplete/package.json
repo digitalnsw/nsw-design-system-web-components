@@ -40,7 +40,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@digitalnsw/simple-filter": "^0.0.11",
-    "@digitalnsw/simple-icon": "^0.0.10",
+    "@digitalnsw/simple-icon": "^0.0.11",
     "@digitalnsw/simple-popover": "^0.0.11",
     "@digitalnsw/utils": "^0.0.11",
     "lit": "2.0.0-rc.2"
@@ -70,5 +70,6 @@
   "keywords": [
     "web-components",
     "html"
-  ]
+  ],
+  "gitHead": "d5162e508071203617d735f6d63e6bcdb045182a"
 }

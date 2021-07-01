@@ -7,7 +7,7 @@ exports.SimpleIconButtonLite = exports.SimpleIconButtonBehaviors = void 0;
 
 var _litElement = require("lit");
 
-var _simpleColors = require("@digitalnsw/simple-colors/simple-colors.js");
+var _simpleColors = require("@digitalnsw/simple-colors/simple-colors/simple-colors.js");
 
 require("./simple-icons.js");
 

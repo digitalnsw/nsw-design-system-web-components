@@ -1,5 +1,5 @@
 import { storiesOf } from "@storybook/polymer";
-import { StorybookUtilities } from "@lrnwebcomponents/storybook-utilities/storybook-utilities.js";
+import { StorybookUtilities } from "@digitalnsw/storybook-utilities/storybook-utilities.js";
 import { SimpleConceptNetwork } from "./simple-concept-network.js";
 
 window.StorybookUtilities.requestAvailability();
@@ -23,13 +23,13 @@ window.StorybookUtilities.instance.addPattern(Pattern);*/
   "name": "a11y-collapse",                  //component tag
   "props": A11yCollapse.properties,         //component properties that will become knobs
   "slots": {                                //slots that will become knobs
-    "heading":                              
+    "heading":
       {
         "name": "heading",                  //slot name
         "type": "String",                   //slot type
         "value": `Click to expand me.`      //slot content
       }
-  }, 
+  },
   "attr": ``,                               //attributes that won't become knobs
   "slotted": ``                             //slots that won't become knobs
 }

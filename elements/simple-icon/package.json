@@ -1,5 +1,5 @@
 {
-  "name": "@digitlnsw/simple-icon",
+  "name": "@digitalnsw/simple-icon",
   "wcfactory": {
     "className": "SimpleIcon",
     "customElementClass": "HTMLElement",
@@ -75,5 +75,6 @@
   "keywords": [
     "web-components",
     "html"
-  ]
+  ],
+  "gitHead": "d5162e508071203617d735f6d63e6bcdb045182a"
 }

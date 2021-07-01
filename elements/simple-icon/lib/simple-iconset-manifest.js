@@ -1,9 +1,8 @@
 import { SimpleIconsetStore } from "@digitalnsw/simple-icon/lib/simple-iconset.js";
-
 /**
- * @const SimpleIconsetManifest
+ * @const SimpleIconIconsetsManifest
  */
-export const SimpleIconsetManifest = [
+export const SimpleIconIconsetsManifest = [
   {
     name: "av",
     icons: [
@@ -827,10 +826,6 @@ export const SimpleIconsetManifest = [
       "wb-iridescent",
       "wb-sunny",
     ],
-  },
-  {
-    name: "loading",
-    icons: ["bars"],
   },
   {
     name: "maps",
