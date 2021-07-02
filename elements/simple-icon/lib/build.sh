@@ -1,6 +1,6 @@
 #!/bin/bash
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-filename=${DIR}/${1}/iconlist.txt
+filename=${DIR}/${1}iconlist.txt
 regex="(.*?\.svg)"
 echo $filename
 

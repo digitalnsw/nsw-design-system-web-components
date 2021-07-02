@@ -2,7 +2,7 @@ import { SimpleColors } from "@digitalnsw/simple-colors/simple-colors.js";
 import { SimpleIconsetDemo } from "@digitalnsw/simple-icon/lib/simple-iconset-demo.js";
 import { SimpleIcon } from "@digitalnsw/simple-icon/simple-icon.js";
 import { SimpleIconLite } from "@digitalnsw/simple-icon/lib/simple-icon-lite.js";
-import { SimpleIconIconsetsManifest } from "@digitalnsw/simple-icon/lib/simple-iconset-manifest.js.js";
+import { SimpleIconIconsetsManifest } from "@digitalnsw/simple-icon/lib/simple-iconset-manifest.js";
 import { HaxIconsetManifest } from "@lrnwebcomponents/hax-iconset/lib/hax-iconset-manifest.js";
 
 export const LoremDataBehaviors = function (SuperClass) {
